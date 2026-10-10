@@ -1,0 +1,12 @@
+﻿clip_id,expert,frames,available,accuracy,positive_frames
+expert_01/bow_hold/E01_BH_grip_too_high_S01_T02.mp4.mp4,expert_01,5,5,1.0,
+expert_01/bow_hold/E01_BH_grip_too_low_S01_T02.mp4.mp4,expert_01,5,5,0.6,
+expert_01/playing_posture/E01_PP_back_hunched_S01_T04.mp4.mp4,expert_01,4,1,0.0,
+expert_01/playing_posture/E01_PP_correct_S01_T05.mp4.mp4,expert_01,15,11,0.7333333333333333,
+expert_01/playing_posture/E01_PP_head_down_S01_T05.mp4.mp4,expert_01,6,5,0.8333333333333334,
+expert_01/playing_posture/E01_PP_shoulder_tilt_S01_T02.mp4.mp4,expert_01,6,4,0.6666666666666666,
+expert_02/bow_hold/E02_BH_grip_too_high_S01_T03.mp4.mp4,expert_02,4,4,1.0,
+expert_02/bow_hold/E02_BH_grip_too_low_S01_T02.mp4.mp4,expert_02,5,5,0.6,
+expert_02/playing_posture/E02_PP_correct_S01_T03.mp4.mp4,expert_02,6,3,0.3333333333333333,
+expert_02/playing_posture/E02_PP_head_down_S01_T01.mp4.mp4,expert_02,5,4,0.4,
+expert_02/playing_posture/E02_PP_shoulder_tilt_S01_T01.mp4.mp4,expert_02,5,5,1.0,

@@ -1,0 +1,3074 @@
+[
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_001",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8253541559993173,
+      "clip_balanced_accuracy": 0.8046130952380953,
+      "clip_balanced_macro_f1": 0.7830747953153292,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8641043283924414,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07430196032044525
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_002",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8095238095238095,
+      "frame_macro_f1": 0.7634164777021919,
+      "clip_balanced_accuracy": 0.7639880952380954,
+      "clip_balanced_macro_f1": 0.7202741035504121,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5884643400847703,
+      0.8641043283924414,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.1143016699344572
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_003",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8253541559993173,
+      "clip_balanced_accuracy": 0.8046130952380953,
+      "clip_balanced_macro_f1": 0.7830747953153292,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8641043283924414,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07430196032044525
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_004",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8253541559993173,
+      "clip_balanced_accuracy": 0.8046130952380953,
+      "clip_balanced_macro_f1": 0.7830747953153292,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8641043283924414,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07430196032044525
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_005",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8253541559993173,
+      "clip_balanced_accuracy": 0.8046130952380953,
+      "clip_balanced_macro_f1": 0.7830747953153292,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8641043283924414,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07430196032044525
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_006",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8253541559993173,
+      "clip_balanced_accuracy": 0.8046130952380953,
+      "clip_balanced_macro_f1": 0.7830747953153292,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8641043283924414,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07430196032044525
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_007",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8452380952380952,
+      "frame_macro_f1": 0.8137806637806637,
+      "clip_balanced_accuracy": 0.7915922619047621,
+      "clip_balanced_macro_f1": 0.7611402256650717,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8341087389216827,
+      0.6434523809523809
+    ],
+    "fold_f1_std": 0.08224025353929075
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_008",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.7916666666666666,
+      "frame_macro_f1": 0.7446644016350935,
+      "clip_balanced_accuracy": 0.7400297619047619,
+      "clip_balanced_macro_f1": 0.6937138734128888,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5450102846379051,
+      0.8641043283924414,
+      0.6434523809523809
+    ],
+    "fold_f1_std": 0.13341628128010202
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_009",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8214285714285714,
+      "frame_macro_f1": 0.7813096347579106,
+      "clip_balanced_accuracy": 0.7811755952380953,
+      "clip_balanced_macro_f1": 0.752597528942685,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8341087389216827,
+      0.6196421887865858
+    ],
+    "fold_f1_std": 0.09327747240685012
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_010",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8035714285714286,
+      "frame_macro_f1": 0.7648184162685494,
+      "clip_balanced_accuracy": 0.7624255952380953,
+      "clip_balanced_macro_f1": 0.7363038276911654,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7506587615283267,
+      0.8270546301022076,
+      0.6196421887865858
+    ],
+    "fold_f1_std": 0.08564889042587755
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_011",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8333333333333334,
+      "frame_macro_f1": 0.7958068906344767,
+      "clip_balanced_accuracy": 0.7829613095238096,
+      "clip_balanced_macro_f1": 0.7515326028093096,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.7561712582544721,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.046141438277199465
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_012",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8230820105820106,
+      "clip_balanced_accuracy": 0.8046130952380953,
+      "clip_balanced_macro_f1": 0.7812416325295098,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8567310864544807,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07158430933537016
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_013",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8273809523809523,
+      "frame_macro_f1": 0.7819288119288119,
+      "clip_balanced_accuracy": 0.7915922619047621,
+      "clip_balanced_macro_f1": 0.7517579242729097,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8350651483426454,
+      0.8341087389216827,
+      0.5593922795454713
+    ],
+    "fold_f1_std": 0.12972859633440117
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_014",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.7857142857142857,
+      "frame_macro_f1": 0.7248877888302537,
+      "clip_balanced_accuracy": 0.7431547619047619,
+      "clip_balanced_macro_f1": 0.6878217707688306,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5884643400847703,
+      0.8641043283924414,
+      0.5593922795454713
+    ],
+    "fold_f1_std": 0.13730421235375767
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_015",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8333333333333334,
+      "frame_macro_f1": 0.787185310046667,
+      "clip_balanced_accuracy": 0.7926339285714287,
+      "clip_balanced_macro_f1": 0.7526323504070268,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8341087389216827,
+      0.5934637490656975
+    ],
+    "fold_f1_std": 0.10545806498912684
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_016",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.7976190476190477,
+      "frame_macro_f1": 0.7578354488371466,
+      "clip_balanced_accuracy": 0.758953373015873,
+      "clip_balanced_macro_f1": 0.7323801303937266,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7506587615283267,
+      0.8270546301022076,
+      0.6100390505450964
+    ],
+    "fold_f1_std": 0.08988016319440366
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_017",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8333333333333334,
+      "frame_macro_f1": 0.7958068906344767,
+      "clip_balanced_accuracy": 0.7829613095238096,
+      "clip_balanced_macro_f1": 0.7515326028093096,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.7561712582544721,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.046141438277199465
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_018",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8333333333333334,
+      "frame_macro_f1": 0.8076043324624362,
+      "clip_balanced_accuracy": 0.7655505952380953,
+      "clip_balanced_macro_f1": 0.7501379022964599,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7044039361756562,
+      0.8567310864544807,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07713713652683094
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_019",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8333333333333334,
+      "frame_macro_f1": 0.787185310046667,
+      "clip_balanced_accuracy": 0.7978422619047619,
+      "clip_balanced_macro_f1": 0.757046120796582,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8350651483426454,
+      0.8341087389216827,
+      0.571439505767864
+    ],
+    "fold_f1_std": 0.1240495063304979
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_020",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.7678571428571429,
+      "frame_macro_f1": 0.7140019018360032,
+      "clip_balanced_accuracy": 0.7191592261904762,
+      "clip_balanced_macro_f1": 0.6729888926938754,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.6414081038487357,
+      0.7592463536291162,
+      0.5670875344492571
+    ],
+    "fold_f1_std": 0.07911623792859314
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_021",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8333333333333334,
+      "frame_macro_f1": 0.787185310046667,
+      "clip_balanced_accuracy": 0.7926339285714287,
+      "clip_balanced_macro_f1": 0.7526323504070268,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8341087389216827,
+      0.5934637490656975
+    ],
+    "fold_f1_std": 0.10545806498912684
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_022",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.7857142857142857,
+      "frame_macro_f1": 0.7443513420728064,
+      "clip_balanced_accuracy": 0.7544890873015873,
+      "clip_balanced_macro_f1": 0.7274091165859904,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7506587615283267,
+      0.8120209483460514,
+      0.6100390505450964
+    ],
+    "fold_f1_std": 0.08454841356507327
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_023",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8333333333333334,
+      "frame_macro_f1": 0.7958068906344767,
+      "clip_balanced_accuracy": 0.7829613095238096,
+      "clip_balanced_macro_f1": 0.7515326028093096,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.7561712582544721,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.046141438277199465
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_024",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8333333333333334,
+      "frame_macro_f1": 0.8076043324624362,
+      "clip_balanced_accuracy": 0.7655505952380953,
+      "clip_balanced_macro_f1": 0.7501379022964599,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7044039361756562,
+      0.8567310864544807,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07713713652683094
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_025",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8154761904761905,
+      "frame_macro_f1": 0.7555574418319516,
+      "clip_balanced_accuracy": 0.7715029761904763,
+      "clip_balanced_macro_f1": 0.7200943708234707,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7706796032958284,
+      0.7968808922546948,
+      0.571439505767864
+    ],
+    "fold_f1_std": 0.10066829068621772
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_026",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8214285714285714,
+      "frame_macro_f1": 0.7852459016393443,
+      "clip_balanced_accuracy": 0.7826884920634921,
+      "clip_balanced_macro_f1": 0.7521574025976577,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8044139640946028,
+      0.8629072678152432,
+      0.549964835093106
+    ],
+    "fold_f1_std": 0.13585073182145532
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_027",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8154761904761905,
+      "frame_macro_f1": 0.7523804896482846,
+      "clip_balanced_accuracy": 0.7756696428571429,
+      "clip_balanced_macro_f1": 0.7194758500757886,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7706796032958284,
+      0.7652692741190594,
+      0.5934637490656975
+    ],
+    "fold_f1_std": 0.08229477443325126
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_028",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8392857142857143,
+      "frame_macro_f1": 0.8116999487967229,
+      "clip_balanced_accuracy": 0.802827380952381,
+      "clip_balanced_macro_f1": 0.7833316074879261,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8505838813192875,
+      0.8629072678152432,
+      0.6196421887865858
+    ],
+    "fold_f1_std": 0.11188477698031656
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_029",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8192336908687855,
+      "clip_balanced_accuracy": 0.7978422619047619,
+      "clip_balanced_macro_f1": 0.7663768860818948,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.6434523809523809
+    ],
+    "fold_f1_std": 0.08789273847961276
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_030",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8630952380952381,
+      "frame_macro_f1": 0.8400720794233646,
+      "clip_balanced_accuracy": 0.8160218253968253,
+      "clip_balanced_macro_f1": 0.7936592710679927,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8505838813192875,
+      0.8800850030358226,
+      0.6339888811354691
+    ],
+    "fold_f1_std": 0.10972035742516606
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_031",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.822408827293175,
+      "clip_balanced_accuracy": 0.8030505952380954,
+      "clip_balanced_macro_f1": 0.7784489615207075,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.06973911731754878
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_032",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8313345625936415,
+      "clip_balanced_accuracy": 0.8071676587301587,
+      "clip_balanced_macro_f1": 0.7913775830301075,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8505838813192875,
+      0.8425837096490686,
+      0.6741097564297905
+    ],
+    "fold_f1_std": 0.08137061469023367
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_033",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8154761904761905,
+      "frame_macro_f1": 0.760839469553869,
+      "clip_balanced_accuracy": 0.769717261904762,
+      "clip_balanced_macro_f1": 0.7219180087490703,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7706796032958284,
+      0.797214494652286,
+      0.571439505767864
+    ],
+    "fold_f1_std": 0.10076102781003549
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_034",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.7797619047619048,
+      "frame_macro_f1": 0.741246302518595,
+      "clip_balanced_accuracy": 0.7283482142857144,
+      "clip_balanced_macro_f1": 0.6978185964820932,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.749788819627872,
+      0.7512414748389595,
+      0.5593922795454713
+    ],
+    "fold_f1_std": 0.09009813564310523
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_035",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8273809523809523,
+      "frame_macro_f1": 0.7733440563629242,
+      "clip_balanced_accuracy": 0.7863839285714286,
+      "clip_balanced_macro_f1": 0.736203618879255,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.7842352521750131,
+      0.5934637490656975
+    ],
+    "fold_f1_std": 0.09260063639828262
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_036",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8095238095238095,
+      "frame_macro_f1": 0.7843717526238388,
+      "clip_balanced_accuracy": 0.7696676587301589,
+      "clip_balanced_macro_f1": 0.7552827146085019,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8505838813192875,
+      0.7906932634391585,
+      0.6100390505450964
+    ],
+    "fold_f1_std": 0.10224406875414498
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_037",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8273809523809523,
+      "frame_macro_f1": 0.7819288119288119,
+      "clip_balanced_accuracy": 0.7822172619047619,
+      "clip_balanced_macro_f1": 0.7440066025760715,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.5593922795454713
+    ],
+    "fold_f1_std": 0.1265579159132588
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_038",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8392857142857143,
+      "frame_macro_f1": 0.8068573259633101,
+      "clip_balanced_accuracy": 0.8003968253968253,
+      "clip_balanced_macro_f1": 0.7737527252483211,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8505838813192875,
+      0.8800850030358226,
+      0.549964835093106
+    ],
+    "fold_f1_std": 0.14915370611069503
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_039",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8192336908687855,
+      "clip_balanced_accuracy": 0.7936755952380953,
+      "clip_balanced_macro_f1": 0.7628761450834828,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.6336750543647095
+    ],
+    "fold_f1_std": 0.09234815464225327
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_040",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8571428571428571,
+      "frame_macro_f1": 0.8345016627357995,
+      "clip_balanced_accuracy": 0.8134176587301589,
+      "clip_balanced_macro_f1": 0.7941555147232422,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8237439084902124,
+      0.8800850030358226,
+      0.6741097564297905
+    ],
+    "fold_f1_std": 0.08691662710887854
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_041",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8154761904761905,
+      "frame_macro_f1": 0.760839469553869,
+      "clip_balanced_accuracy": 0.769717261904762,
+      "clip_balanced_macro_f1": 0.7219180087490703,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7706796032958284,
+      0.797214494652286,
+      0.571439505767864
+    ],
+    "fold_f1_std": 0.10076102781003549
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_042",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.7797619047619048,
+      "frame_macro_f1": 0.741246302518595,
+      "clip_balanced_accuracy": 0.7283482142857144,
+      "clip_balanced_macro_f1": 0.6978185964820932,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.749788819627872,
+      0.7512414748389595,
+      0.5593922795454713
+    ],
+    "fold_f1_std": 0.09009813564310523
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_043",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8273809523809523,
+      "frame_macro_f1": 0.7733440563629242,
+      "clip_balanced_accuracy": 0.7863839285714286,
+      "clip_balanced_macro_f1": 0.736203618879255,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.7842352521750131,
+      0.5934637490656975
+    ],
+    "fold_f1_std": 0.09260063639828262
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_044",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8095238095238095,
+      "frame_macro_f1": 0.7843717526238388,
+      "clip_balanced_accuracy": 0.7696676587301589,
+      "clip_balanced_macro_f1": 0.7552827146085019,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8505838813192875,
+      0.7906932634391585,
+      0.6100390505450964
+    ],
+    "fold_f1_std": 0.10224406875414498
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_045",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8273809523809523,
+      "frame_macro_f1": 0.7819288119288119,
+      "clip_balanced_accuracy": 0.7822172619047619,
+      "clip_balanced_macro_f1": 0.7440066025760715,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.5593922795454713
+    ],
+    "fold_f1_std": 0.1265579159132588
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_046",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8392857142857143,
+      "frame_macro_f1": 0.8068573259633101,
+      "clip_balanced_accuracy": 0.8003968253968253,
+      "clip_balanced_macro_f1": 0.7737527252483211,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8505838813192875,
+      0.8800850030358226,
+      0.549964835093106
+    ],
+    "fold_f1_std": 0.14915370611069503
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_047",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8192336908687855,
+      "clip_balanced_accuracy": 0.7936755952380953,
+      "clip_balanced_macro_f1": 0.7628761450834828,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.6336750543647095
+    ],
+    "fold_f1_std": 0.09234815464225327
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_2",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_048",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8571428571428571,
+      "frame_macro_f1": 0.8345016627357995,
+      "clip_balanced_accuracy": 0.8134176587301589,
+      "clip_balanced_macro_f1": 0.7941555147232422,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8237439084902124,
+      0.8800850030358226,
+      0.6741097564297905
+    ],
+    "fold_f1_std": 0.08691662710887854
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_049",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8253541559993173,
+      "clip_balanced_accuracy": 0.8046130952380953,
+      "clip_balanced_macro_f1": 0.7830747953153292,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8641043283924414,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07430196032044525
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_050",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8273809523809523,
+      "frame_macro_f1": 0.7916277622159975,
+      "clip_balanced_accuracy": 0.7806547619047619,
+      "clip_balanced_macro_f1": 0.7476623345617653,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.6908133360534386,
+      0.8641043283924414,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.08340398648386553
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_051",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8253541559993173,
+      "clip_balanced_accuracy": 0.8046130952380953,
+      "clip_balanced_macro_f1": 0.7830747953153292,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8641043283924414,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07430196032044525
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_052",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8253541559993173,
+      "clip_balanced_accuracy": 0.8046130952380953,
+      "clip_balanced_macro_f1": 0.7830747953153292,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8641043283924414,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07430196032044525
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_053",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8253541559993173,
+      "clip_balanced_accuracy": 0.8046130952380953,
+      "clip_balanced_macro_f1": 0.7830747953153292,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8641043283924414,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07430196032044525
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_054",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8253541559993173,
+      "clip_balanced_accuracy": 0.8046130952380953,
+      "clip_balanced_macro_f1": 0.7830747953153292,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8641043283924414,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07430196032044525
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_055",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8452380952380952,
+      "frame_macro_f1": 0.8137806637806637,
+      "clip_balanced_accuracy": 0.7915922619047621,
+      "clip_balanced_macro_f1": 0.7611402256650717,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8341087389216827,
+      0.6434523809523809
+    ],
+    "fold_f1_std": 0.08224025353929075
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_056",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8095238095238095,
+      "frame_macro_f1": 0.772829254079254,
+      "clip_balanced_accuracy": 0.7566964285714286,
+      "clip_balanced_macro_f1": 0.7210037630828939,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.6469383913926947,
+      0.8641043283924414,
+      0.6434523809523809
+    ],
+    "fold_f1_std": 0.10320447792333819
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_057",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8214285714285714,
+      "frame_macro_f1": 0.7813096347579106,
+      "clip_balanced_accuracy": 0.7811755952380953,
+      "clip_balanced_macro_f1": 0.752597528942685,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8341087389216827,
+      0.6196421887865858
+    ],
+    "fold_f1_std": 0.09327747240685012
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_058",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8035714285714286,
+      "frame_macro_f1": 0.7648184162685494,
+      "clip_balanced_accuracy": 0.7624255952380953,
+      "clip_balanced_macro_f1": 0.7363038276911654,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7506587615283267,
+      0.8270546301022076,
+      0.6196421887865858
+    ],
+    "fold_f1_std": 0.08564889042587755
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_059",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8333333333333334,
+      "frame_macro_f1": 0.7958068906344767,
+      "clip_balanced_accuracy": 0.7829613095238096,
+      "clip_balanced_macro_f1": 0.7515326028093096,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.7561712582544721,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.046141438277199465
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_060",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8230820105820106,
+      "clip_balanced_accuracy": 0.8046130952380953,
+      "clip_balanced_macro_f1": 0.7812416325295098,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8567310864544807,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07158430933537016
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_061",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8452380952380952,
+      "frame_macro_f1": 0.8024808415663873,
+      "clip_balanced_accuracy": 0.807998511904762,
+      "clip_balanced_macro_f1": 0.7683442039733176,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8350651483426454,
+      0.8703456456260668,
+      0.5824617852046865
+    ],
+    "fold_f1_std": 0.1282056896155938
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_062",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8035714285714286,
+      "frame_macro_f1": 0.7529363621410919,
+      "clip_balanced_accuracy": 0.7598214285714286,
+      "clip_balanced_macro_f1": 0.715051797798327,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.6908133360534386,
+      0.8641043283924414,
+      0.5593922795454713
+    ],
+    "fold_f1_std": 0.12478901965229373
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_063",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8452380952380952,
+      "frame_macro_f1": 0.7980688901741533,
+      "clip_balanced_accuracy": 0.8051339285714286,
+      "clip_balanced_macro_f1": 0.7633474912778141,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8703456456260668,
+      0.5934637490656975
+    ],
+    "fold_f1_std": 0.11689767239890424
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_064",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.7976190476190477,
+      "frame_macro_f1": 0.7578354488371466,
+      "clip_balanced_accuracy": 0.758953373015873,
+      "clip_balanced_macro_f1": 0.7323801303937266,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7506587615283267,
+      0.8270546301022076,
+      0.6100390505450964
+    ],
+    "fold_f1_std": 0.08988016319440366
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_065",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8333333333333334,
+      "frame_macro_f1": 0.7958068906344767,
+      "clip_balanced_accuracy": 0.7829613095238096,
+      "clip_balanced_macro_f1": 0.7515326028093096,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.7561712582544721,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.046141438277199465
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_066",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8333333333333334,
+      "frame_macro_f1": 0.8076043324624362,
+      "clip_balanced_accuracy": 0.7655505952380953,
+      "clip_balanced_macro_f1": 0.7501379022964599,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7044039361756562,
+      0.8567310864544807,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07713713652683094
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_067",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8452380952380952,
+      "frame_macro_f1": 0.8024808415663873,
+      "clip_balanced_accuracy": 0.807998511904762,
+      "clip_balanced_macro_f1": 0.7683442039733176,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8350651483426454,
+      0.8516176065159429,
+      0.5955836531649744
+    ],
+    "fold_f1_std": 0.11698943716451857
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_068",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8214285714285714,
+      "frame_macro_f1": 0.7801434676434678,
+      "clip_balanced_accuracy": 0.7777901785714286,
+      "clip_balanced_macro_f1": 0.740241832852322,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7446935919751535,
+      0.8820740740740741,
+      0.5670875344492571
+    ],
+    "fold_f1_std": 0.12894177354158318
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_069",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8452380952380952,
+      "frame_macro_f1": 0.7980688901741533,
+      "clip_balanced_accuracy": 0.8051339285714286,
+      "clip_balanced_macro_f1": 0.7633474912778141,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8703456456260668,
+      0.5934637490656975
+    ],
+    "fold_f1_std": 0.11689767239890424
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_070",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8095238095238095,
+      "frame_macro_f1": 0.7755856453148375,
+      "clip_balanced_accuracy": 0.774578373015873,
+      "clip_balanced_macro_f1": 0.7524479206892369,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8033578838995802,
+      0.8270546301022076,
+      0.6100390505450964
+    ],
+    "fold_f1_std": 0.09719937635867563
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_071",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8333333333333334,
+      "frame_macro_f1": 0.7958068906344767,
+      "clip_balanced_accuracy": 0.7829613095238096,
+      "clip_balanced_macro_f1": 0.7515326028093096,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.7561712582544721,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.046141438277199465
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_072",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8333333333333334,
+      "frame_macro_f1": 0.8076043324624362,
+      "clip_balanced_accuracy": 0.7655505952380953,
+      "clip_balanced_macro_f1": 0.7501379022964599,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7044039361756562,
+      0.8567310864544807,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.07713713652683094
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_073",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8192336908687855,
+      "clip_balanced_accuracy": 0.7978422619047619,
+      "clip_balanced_macro_f1": 0.7663768860818948,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.6434523809523809
+    ],
+    "fold_f1_std": 0.08789273847961276
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_074",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8290316059033628,
+      "clip_balanced_accuracy": 0.8019593253968255,
+      "clip_balanced_macro_f1": 0.7816132218001318,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8505838813192875,
+      0.8425837096490686,
+      0.6339888811354691
+    ],
+    "fold_f1_std": 0.10027140909329772
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_075",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8192336908687855,
+      "clip_balanced_accuracy": 0.7978422619047619,
+      "clip_balanced_macro_f1": 0.7663768860818948,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.6434523809523809
+    ],
+    "fold_f1_std": 0.08789273847961276
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_076",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8452380952380952,
+      "frame_macro_f1": 0.8260070466020123,
+      "clip_balanced_accuracy": 0.7993551587301587,
+      "clip_balanced_macro_f1": 0.7848615396628231,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8505838813192875,
+      0.8233173064951028,
+      0.6741097564297905
+    ],
+    "fold_f1_std": 0.07756679978118453
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_077",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8192336908687855,
+      "clip_balanced_accuracy": 0.7978422619047619,
+      "clip_balanced_macro_f1": 0.7663768860818948,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.6434523809523809
+    ],
+    "fold_f1_std": 0.08789273847961276
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_078",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8290316059033628,
+      "clip_balanced_accuracy": 0.8019593253968255,
+      "clip_balanced_macro_f1": 0.7816132218001318,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8505838813192875,
+      0.8425837096490686,
+      0.6339888811354691
+    ],
+    "fold_f1_std": 0.10027140909329772
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_079",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.822408827293175,
+      "clip_balanced_accuracy": 0.8030505952380954,
+      "clip_balanced_macro_f1": 0.7784489615207075,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.6837535159013649
+    ],
+    "fold_f1_std": 0.06973911731754878
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_080",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8313345625936415,
+      "clip_balanced_accuracy": 0.8071676587301587,
+      "clip_balanced_macro_f1": 0.7913775830301075,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8505838813192875,
+      0.8425837096490686,
+      0.6741097564297905
+    ],
+    "fold_f1_std": 0.08137061469023367
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_081",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8273809523809523,
+      "frame_macro_f1": 0.7819288119288119,
+      "clip_balanced_accuracy": 0.7822172619047619,
+      "clip_balanced_macro_f1": 0.7440066025760715,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.5593922795454713
+    ],
+    "fold_f1_std": 0.1265579159132588
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_082",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8154761904761905,
+      "frame_macro_f1": 0.7860023119815042,
+      "clip_balanced_accuracy": 0.7668030753968255,
+      "clip_balanced_macro_f1": 0.7443498550473525,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8237439084902124,
+      0.8049111448456249,
+      0.5730251650971457
+    ],
+    "fold_f1_std": 0.11401055939351669
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_083",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8571428571428571,
+      "frame_macro_f1": 0.8248014023876094,
+      "clip_balanced_accuracy": 0.804092261904762,
+      "clip_balanced_macro_f1": 0.7717032650108813,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.6588701410245753
+    ],
+    "fold_f1_std": 0.08090202801054101
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_084",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8452380952380952,
+      "frame_macro_f1": 0.8211299876818815,
+      "clip_balanced_accuracy": 0.7993551587301588,
+      "clip_balanced_macro_f1": 0.7794247038325518,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8629072678152432,
+      0.6741097564297905
+    ],
+    "fold_f1_std": 0.07808983069927916
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_085",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8273809523809523,
+      "frame_macro_f1": 0.7819288119288119,
+      "clip_balanced_accuracy": 0.7822172619047619,
+      "clip_balanced_macro_f1": 0.7440066025760715,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.5593922795454713
+    ],
+    "fold_f1_std": 0.1265579159132588
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_086",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8392857142857143,
+      "frame_macro_f1": 0.8068573259633101,
+      "clip_balanced_accuracy": 0.7964905753968253,
+      "clip_balanced_macro_f1": 0.7685926789381871,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8505838813192875,
+      0.8515859279114154,
+      0.5730251650971457
+    ],
+    "fold_f1_std": 0.13107925661298886
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_087",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8192336908687855,
+      "clip_balanced_accuracy": 0.7936755952380953,
+      "clip_balanced_macro_f1": 0.7628761450834828,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.6336750543647095
+    ],
+    "fold_f1_std": 0.09234815464225327
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_088",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8571428571428571,
+      "frame_macro_f1": 0.8345016627357995,
+      "clip_balanced_accuracy": 0.8134176587301589,
+      "clip_balanced_macro_f1": 0.7941555147232422,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8237439084902124,
+      0.8800850030358226,
+      0.6741097564297905
+    ],
+    "fold_f1_std": 0.08691662710887854
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_089",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8273809523809523,
+      "frame_macro_f1": 0.7819288119288119,
+      "clip_balanced_accuracy": 0.7822172619047619,
+      "clip_balanced_macro_f1": 0.7440066025760715,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.5593922795454713
+    ],
+    "fold_f1_std": 0.1265579159132588
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_090",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8214285714285714,
+      "frame_macro_f1": 0.7943866375740454,
+      "clip_balanced_accuracy": 0.7746155753968255,
+      "clip_balanced_macro_f1": 0.7542692049085348,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8505838813192875,
+      0.8049111448456249,
+      0.5730251650971457
+    ],
+    "fold_f1_std": 0.12151632145143125
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_091",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8571428571428571,
+      "frame_macro_f1": 0.8248014023876094,
+      "clip_balanced_accuracy": 0.804092261904762,
+      "clip_balanced_macro_f1": 0.7717032650108813,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.6588701410245753
+    ],
+    "fold_f1_std": 0.08090202801054101
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_092",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8452380952380952,
+      "frame_macro_f1": 0.8211299876818815,
+      "clip_balanced_accuracy": 0.7993551587301588,
+      "clip_balanced_macro_f1": 0.7794247038325518,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.8629072678152432,
+      0.6741097564297905
+    ],
+    "fold_f1_std": 0.07808983069927916
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_093",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8273809523809523,
+      "frame_macro_f1": 0.7819288119288119,
+      "clip_balanced_accuracy": 0.7822172619047619,
+      "clip_balanced_macro_f1": 0.7440066025760715,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.5593922795454713
+    ],
+    "fold_f1_std": 0.1265579159132588
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_094",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8392857142857143,
+      "frame_macro_f1": 0.8068573259633101,
+      "clip_balanced_accuracy": 0.7964905753968253,
+      "clip_balanced_macro_f1": 0.7685926789381871,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8505838813192875,
+      0.8515859279114154,
+      0.5730251650971457
+    ],
+    "fold_f1_std": 0.13107925661298886
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_095",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8511904761904762,
+      "frame_macro_f1": 0.8192336908687855,
+      "clip_balanced_accuracy": 0.7936755952380953,
+      "clip_balanced_macro_f1": 0.7628761450834828,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7951115614756321,
+      0.851617606515943,
+      0.6336750543647095
+    ],
+    "fold_f1_std": 0.09234815464225327
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "body_4",
+    "features": [
+      "bow_side_horizontal_ratio",
+      "bow_side_perpendicular_ratio",
+      "wrist_height_screen_ratio",
+      "wrist_height_body_ratio"
+    ],
+    "candidate_id": "initial_grip_096",
+    "cv": {
+      "frames": 168,
+      "clips": 32,
+      "frame_accuracy": 0.8571428571428571,
+      "frame_macro_f1": 0.8345016627357995,
+      "clip_balanced_accuracy": 0.8134176587301589,
+      "clip_balanced_macro_f1": 0.7941555147232422,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8237439084902124,
+      0.8800850030358226,
+      0.6741097564297905
+    ],
+    "fold_f1_std": 0.08691662710887854
+  }
+]

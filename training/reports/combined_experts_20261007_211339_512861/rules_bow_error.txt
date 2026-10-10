@@ -1,0 +1,19 @@
+|--- wrist_height_body_ratio <= 0.42
+|   |--- bow_side_horizontal_ratio <= 0.69
+|   |   |--- wrist_height_body_ratio <= 0.24
+|   |   |   |--- class: 0
+|   |   |--- wrist_height_body_ratio >  0.24
+|   |   |   |--- class: 1
+|   |--- bow_side_horizontal_ratio >  0.69
+|   |   |--- wrist_height_screen_ratio <= 0.25
+|   |   |   |--- class: 0
+|   |   |--- wrist_height_screen_ratio >  0.25
+|   |   |   |--- class: 0
+|--- wrist_height_body_ratio >  0.42
+|   |--- bow_side_perpendicular_ratio <= 1.13
+|   |   |--- bow_side_horizontal_ratio <= 0.40
+|   |   |   |--- class: 1
+|   |   |--- bow_side_horizontal_ratio >  0.40
+|   |   |   |--- class: 1
+|   |--- bow_side_perpendicular_ratio >  1.13
+|   |   |--- class: 0

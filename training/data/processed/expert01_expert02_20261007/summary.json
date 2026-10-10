@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "batch": "expert01_expert02_20261007",
+  "dataset_sha256": "1bee7fa0034391ed2d290437976f547b1f36d7ec2a8699d086e3a10ff80d7e29",
+  "source_clips": 64,
+  "physical_frames": 2082,
+  "clips_by_expert": {
+    "expert_01": 34,
+    "expert_02": 30
+  },
+  "split_clip_counts": {
+    "train": 38,
+    "val": 13,
+    "test": 13
+  },
+  "tasks": {
+    "playing_posture_head_shoulder": {
+      "reviewed_frames": 1359,
+      "usable_frames": 1359,
+      "unusable_frames": 0,
+      "feature_columns": [
+        "shoulder_tilt_deg",
+        "head_tilt_deg",
+        "torso_tilt_deg",
+        "head_height_ratio",
+        "head_side_offset_ratio",
+        "nose_below_ears_ratio",
+        "torso_length_ratio",
+        "hip_width_ratio",
+        "nose_depth_vs_shoulders_ratio",
+        "shoulder_depth_vs_hips_ratio"
+      ],
+      "target_columns": [
+        "target_head_down",
+        "target_shoulder_tilt"
+      ],
+      "splits": {
+        "train": {
+          "frames": 833,
+          "clips": 21,
+          "target_counts": {
+            "target_head_down": {
+              "0": 619,
+              "1": 214
+            },
+            "target_shoulder_tilt": {
+              "1": 184,
+              "0": 649
+            }
+          }
+        },
+        "val": {
+          "frames": 258,
+          "clips": 7,
+          "target_counts": {
+            "target_head_down": {
+              "1": 78,
+              "0": 180
+            },
+            "target_shoulder_tilt": {
+              "0": 204,
+              "1": 54
+            }
+          }
+        },
+        "test": {
+          "frames": 268,
+          "clips": 7,
+          "target_counts": {
+            "target_head_down": {
+              "0": 237,
+              "1": 31
+            },
+            "target_shoulder_tilt": {
+              "0": 215,
+              "1": 53
+            }
+          }
+        }
+      },
+      "split_files": {
+        "train": "train.csv",
+        "val": "val.csv",
+        "test": "test.csv"
+      },
+      "split_sha256": {
+        "train": "34661efc53941ac3e187b10f26a834a323b403b790dc54209cd61d7e96d2bf22",
+        "val": "e28879a29f9b2906ad89e5911b3fc9cf6e23d2240ce856297a110672658ef37b",
+        "test": "8cb012afa22bd030909b6b23f0e1911652d42e4d9dcc569124f74ba619346d60"
+      }
+    },
+    "initial_grip_rightmost": {
+      "reviewed_frames": 351,
+      "usable_frames": 273,
+      "unusable_frames": 78,
+      "feature_columns": [
+        "bow_side_horizontal_ratio",
+        "bow_side_perpendicular_ratio",
+        "wrist_height_screen_ratio",
+        "wrist_height_body_ratio"
+      ],
+      "target_columns": [
+        "error_type"
+      ],
+      "splits": {
+        "train": {
+          "frames": 168,
+          "clips": 32,
+          "target_counts": {
+            "error_type": {
+              "grip_too_high": 30,
+              "grip_too_low": 28,
+              "none": 110
+            }
+          }
+        },
+        "val": {
+          "frames": 52,
+          "clips": 11,
+          "target_counts": {
+            "error_type": {
+              "grip_too_high": 9,
+              "grip_too_low": 10,
+              "none": 33
+            }
+          }
+        },
+        "test": {
+          "frames": 53,
+          "clips": 10,
+          "target_counts": {
+            "error_type": {
+              "grip_too_high": 12,
+              "grip_too_low": 12,
+              "none": 29
+            }
+          }
+        }
+      },
+      "split_files": {
+        "train": "train.csv",
+        "val": "val.csv",
+        "test": "test.csv"
+      },
+      "split_sha256": {
+        "train": "bf247d00e70d0fa37834abb7c5cd8543e21de6a1a1453a6cec829891f8bf2ffd",
+        "val": "5b9b75839f30badac1724e8a2098cec5fce8ec107f0dbb9d629a29b100ebad57",
+        "test": "9682638b5c0119e8808a428c04e38ef2553b9516e27ad6bc7fe663eb96addff5"
+      }
+    },
+    "bow_angle_float_body_proxy": {
+      "reviewed_frames": 558,
+      "usable_frames": 421,
+      "unusable_frames": 137,
+      "feature_columns": [
+        "bow_side_horizontal_ratio",
+        "bow_side_perpendicular_ratio",
+        "wrist_height_screen_ratio",
+        "wrist_height_body_ratio"
+      ],
+      "target_columns": [
+        "target_bow_angle_wrong"
+      ],
+      "splits": {
+        "train": {
+          "frames": 261,
+          "clips": 33,
+          "target_counts": {
+            "target_bow_angle_wrong": {
+              "0": 164,
+              "1": 97
+            }
+          }
+        },
+        "val": {
+          "frames": 83,
+          "clips": 11,
+          "target_counts": {
+            "target_bow_angle_wrong": {
+              "1": 39,
+              "0": 44
+            }
+          }
+        },
+        "test": {
+          "frames": 77,
+          "clips": 11,
+          "target_counts": {
+            "target_bow_angle_wrong": {
+              "0": 53,
+              "1": 24
+            }
+          }
+        }
+      },
+      "split_files": {
+        "train": "train.csv",
+        "val": "val.csv",
+        "test": "test.csv"
+      },
+      "split_sha256": {
+        "train": "586f16d54f34b9ee70beaa8fcdb103c7b59e9364daaef602a08ac3f9dfb12a8a",
+        "val": "c108725ef879996e6cd665e53a54e527f90e00499695ef0a56e51ac50232b815",
+        "test": "f93634174020af8699feb39db8cebab8aced2b92406ccf049df9303e42bf5eb5"
+      }
+    }
+  },
+  "blockers": [],
+  "blocker_counts": {},
+  "data_ready": true,
+  "model_trained": false,
+  "active_models_changed": false,
+  "annotation_schema": "combined_bow_error_v2",
+  "bow_target_semantics": {
+    "bow_angle_wrong": "angle_wrong_or_bow_floating"
+  },
+  "note": "Bow angle error and bow floating share one binary target. Body proxy is an experiment, not direct A-E geometry. Historical expert01 test was seen previously; expert02 test is reserved at clip level."
+}

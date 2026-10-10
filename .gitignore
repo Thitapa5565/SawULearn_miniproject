@@ -1,0 +1,22 @@
+.venv/
+venv/
+training/.venv/
+web_app/node_modules/
+**/__pycache__/
+*.py[cod]
+**/.ipynb_checkpoints/
+**/.pytest_cache/
+**/.runtime/
+**/.cache/
+.env
+*.env
+*.pem
+*.key
+*.pfx
+*.crt
+*.mobileconfig
+~$*
+~WRL*.tmp
+Thumbs.db
+.DS_Store
+# web_app/dist and the shipped CSV/model files are intentionally tracked.

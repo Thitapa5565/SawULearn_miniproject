@@ -1,0 +1,8 @@
+﻿clip_id,expert,frames,available,accuracy,positive_frames
+expert_01/playing_posture/E01_PP_back_hunched_S01_T05.mp4.mp4,expert_01,26,26,0.9615384615384616,0
+expert_01/playing_posture/E01_PP_correct_S01_T02.mp4.mp4,expert_01,101,101,1.0,0
+expert_01/playing_posture/E01_PP_head_down_S01_T03.mp4.mp4,expert_01,32,32,0.0,0
+expert_01/playing_posture/E01_PP_shoulder_tilt_S01_T01.mp4.mp4,expert_01,25,25,0.84,25
+expert_02/playing_posture/E02_PP_correct_S01_T04.mp4.mp4,expert_02,29,29,0.7931034482758621,0
+expert_02/playing_posture/E02_PP_head_down_S01_T04.mp4.mp4,expert_02,27,27,1.0,0
+expert_02/playing_posture/E02_PP_shoulder_tilt_S01_T05.mp4.mp4,expert_02,28,28,1.0,28

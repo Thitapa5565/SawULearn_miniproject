@@ -1,0 +1,8 @@
+# Keep exact bytes: CSV and model SHA256 must survive Windows/macOS/Linux clones.
+* -text
+*.joblib binary
+*.task binary
+*.png binary
+*.jpg binary
+*.woff binary
+*.woff2 binary

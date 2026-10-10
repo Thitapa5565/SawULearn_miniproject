@@ -1,0 +1,11 @@
+﻿feature,importance
+nose_below_ears_ratio,0.45035927207532933
+head_tilt_deg,0.17191453289466313
+shoulder_tilt_deg,0.14943691193868386
+head_height_ratio,0.07698999311694156
+head_side_offset_ratio,0.03711330984775141
+nose_depth_vs_shoulders_ratio,0.03089749032043587
+torso_length_ratio,0.027303904036122293
+torso_tilt_deg,0.025948606567937377
+shoulder_depth_vs_hips_ratio,0.016743575592258596
+hip_width_ratio,0.01329240360987656

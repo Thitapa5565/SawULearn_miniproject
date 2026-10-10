@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "run": "combined_experts_20261007_211339_512861",
+  "model_sha256": {
+    "head_down": "1a9f06ef6b1f03cdbb093a011f680ec87501ffc1700ee7c4a0dd243dcd7bf5b7",
+    "shoulder_tilt": "211c20c2808ca733c633a5fd2f623e03930ef4637b9f15dc5633a9f5a591cfb4",
+    "initial_grip": "235e8e4ed69905ce57d05943f5908c6e7513ddde603622cdbeb45becd17fe899",
+    "bow_error": "18d4e0fb88c6b750e9a5650c962bc03e46018e5d52b1e1e7e3a41fa29dc4014d"
+  },
+  "activated_at": "2026-10-07T21:54:47.278069+07:00",
+  "protocol": "player_rightmost_comfortable_bow_position"
+}

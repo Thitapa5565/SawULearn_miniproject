@@ -1,0 +1,26 @@
+{
+  "head_down": {
+    "low": 0.35112428959723224,
+    "high": 0.9056822631424567,
+    "repeats": 500,
+    "note": "Descriptive 95% clip bootstrap; some resamples omit a class; only two players, not population generalization."
+  },
+  "shoulder_tilt": {
+    "low": 0.4054131094312184,
+    "high": 0.9711067967810592,
+    "repeats": 500,
+    "note": "Descriptive 95% clip bootstrap; some resamples omit a class; only two players, not population generalization."
+  },
+  "initial_grip": {
+    "low": 0.42055645356665494,
+    "high": 0.9143501078833708,
+    "repeats": 500,
+    "note": "Descriptive 95% clip bootstrap; some resamples omit a class; only two players, not population generalization."
+  },
+  "bow_error": {
+    "low": 0.3833096549534502,
+    "high": 0.7500543114407272,
+    "repeats": 500,
+    "note": "Descriptive 95% clip bootstrap; some resamples omit a class; only two players, not population generalization."
+  }
+}

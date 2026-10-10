@@ -1,0 +1,12 @@
+{
+  "run": "combined_experts_20261007_211339_512861",
+  "selection_sha256": "5c15703e0a3a04ee21f9807d2998a4c4647df712b9a317c96621ee42911894ac",
+  "locked_at": "2026-10-07T21:19:10.136362+07:00",
+  "test_used_for_selection": false,
+  "winners": {
+    "head_down": "head_down_046",
+    "shoulder_tilt": "shoulder_tilt_030",
+    "initial_grip": "initial_grip_040",
+    "bow_error": "bow_error_011"
+  }
+}

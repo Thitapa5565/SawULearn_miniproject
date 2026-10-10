@@ -1,0 +1,30 @@
+{
+  "checked_on": "2026-10-11",
+  "platform": "Windows x64",
+  "python": "3.12",
+  "fresh_environment_install": true,
+  "frontend_tests_passed": 27,
+  "backend_tests_passed": 5,
+  "frontend_build_passed": true,
+  "all_saved_test_predictions_reproduced": true,
+  "deployed_model_hashes_unchanged": true,
+  "notebooks": [
+    {
+      "notebook": "01_train_combined_experts.ipynb",
+      "code_cells": 27,
+      "errors": 0
+    },
+    {
+      "notebook": "02_validation_results.ipynb",
+      "code_cells": 18,
+      "errors": 0
+    },
+    {
+      "notebook": "03_test_results.ipynb",
+      "code_cells": 20,
+      "errors": 0
+    }
+  ],
+  "physical_camera_and_microphone_tested": false,
+  "raw_videos_required_for_included_notebooks": false
+}

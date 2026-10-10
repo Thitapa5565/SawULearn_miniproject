@@ -1,0 +1,119 @@
+{
+  "task": "head_down",
+  "split": "val",
+  "tag": "decision_tree",
+  "conditional": {
+    "frames": 258,
+    "clips": 7,
+    "frame_accuracy": 0.6782945736434108,
+    "frame_macro_f1": 0.661786306562426,
+    "clip_balanced_accuracy": 0.6736281814313024,
+    "clip_balanced_macro_f1": 0.6687383181390705,
+    "coverage": 1.0,
+    "clip_balanced_coverage": 1.0
+  },
+  "all_reviewed": {
+    "frames": 258,
+    "clips": 7,
+    "frame_accuracy": 0.6782945736434108,
+    "frame_macro_f1": 0.661786306562426,
+    "clip_balanced_accuracy": 0.6736281814313024,
+    "clip_balanced_macro_f1": 0.6687383181390705,
+    "coverage": 1.0,
+    "clip_balanced_coverage": 1.0
+  },
+  "per_expert": {
+    "expert_01": {
+      "frames": 176,
+      "clips": 4,
+      "frame_accuracy": 0.6931818181818182,
+      "frame_macro_f1": 0.6685267857142857,
+      "clip_balanced_accuracy": 0.6920768307322928,
+      "clip_balanced_macro_f1": 0.6865103702051749,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "expert_02": {
+      "frames": 82,
+      "clips": 3,
+      "frame_accuracy": 0.6463414634146342,
+      "frame_macro_f1": 0.6420292036730393,
+      "clip_balanced_accuracy": 0.6490299823633159,
+      "clip_balanced_macro_f1": 0.6450553495087905,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    }
+  },
+  "classification_reports": {
+    "unweighted": {
+      "0": {
+        "precision": 0.8592592592592593,
+        "recall": 0.6444444444444445,
+        "f1-score": 0.7365079365079366,
+        "support": 180.0
+      },
+      "1": {
+        "precision": 0.4796747967479675,
+        "recall": 0.7564102564102564,
+        "f1-score": 0.5870646766169154,
+        "support": 78.0
+      },
+      "accuracy": 0.6782945736434108,
+      "macro avg": {
+        "precision": 0.6694670280036134,
+        "recall": 0.7004273504273504,
+        "f1-score": 0.661786306562426,
+        "support": 258.0
+      },
+      "weighted avg": {
+        "precision": 0.7445011659418919,
+        "recall": 0.6782945736434108,
+        "f1-score": 0.6913274160757674,
+        "support": 258.0
+      }
+    },
+    "clip_balanced": {
+      "0": {
+        "precision": 0.7339642111681802,
+        "recall": 0.6856507498329443,
+        "f1-score": 0.7089853594993347,
+        "support": 4.058823529411768
+      },
+      "1": {
+        "precision": 0.6023226485954626,
+        "recall": 0.6570370370370363,
+        "f1-score": 0.6284912767788063,
+        "support": 2.9411764705882364
+      },
+      "accuracy": 0.673628181431303,
+      "macro avg": {
+        "precision": 0.6681434298818214,
+        "recall": 0.6713438934349902,
+        "f1-score": 0.6687383181390705,
+        "support": 7.000000000000004
+      },
+      "weighted avg": {
+        "precision": 0.6786526302552737,
+        "recall": 0.6736281814313022,
+        "f1-score": 0.6751643163394488,
+        "support": 7.000000000000004
+      }
+    }
+  },
+  "feature_columns": [
+    "shoulder_tilt_deg",
+    "head_tilt_deg",
+    "torso_tilt_deg",
+    "head_height_ratio",
+    "head_side_offset_ratio",
+    "nose_below_ears_ratio",
+    "torso_length_ratio",
+    "hip_width_ratio",
+    "nose_depth_vs_shoulders_ratio",
+    "shoulder_depth_vs_hips_ratio"
+  ],
+  "family": "decision_tree",
+  "fit_splits": [
+    "train"
+  ]
+}

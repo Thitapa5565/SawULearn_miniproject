@@ -1,0 +1,1874 @@
+[
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_001",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8391356542617047,
+      "frame_macro_f1": 0.7715846770893018,
+      "clip_balanced_accuracy": 0.7851323666252809,
+      "clip_balanced_macro_f1": 0.7555168293949719,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8041435246263622,
+      0.6434033226116683,
+      0.8186563234673363
+    ],
+    "fold_f1_std": 0.07941567728158797
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_002",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8535414165666266,
+      "frame_macro_f1": 0.7965070643642073,
+      "clip_balanced_accuracy": 0.8085639614854472,
+      "clip_balanced_macro_f1": 0.78578005159212,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8129179312677686,
+      0.7257973804934725,
+      0.8186563234673363
+    ],
+    "fold_f1_std": 0.042486210576656566
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_003",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8391356542617047,
+      "frame_macro_f1": 0.7715846770893018,
+      "clip_balanced_accuracy": 0.7851323666252809,
+      "clip_balanced_macro_f1": 0.7555168293949719,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8041435246263622,
+      0.6434033226116683,
+      0.8186563234673363
+    ],
+    "fold_f1_std": 0.07941567728158797
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_004",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8535414165666266,
+      "frame_macro_f1": 0.7965070643642073,
+      "clip_balanced_accuracy": 0.8085639614854472,
+      "clip_balanced_macro_f1": 0.78578005159212,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8129179312677686,
+      0.7257973804934725,
+      0.8186563234673363
+    ],
+    "fold_f1_std": 0.042486210576656566
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_005",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8679471788715486,
+      "frame_macro_f1": 0.8035208851531006,
+      "clip_balanced_accuracy": 0.8258711692688453,
+      "clip_balanced_macro_f1": 0.7948643403868283,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.9296733666505467,
+      0.6434033226116683,
+      0.8186563234673363
+    ],
+    "fold_f1_std": 0.1178459146041893
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 2,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_006",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8775510204081632,
+      "frame_macro_f1": 0.823490551927008,
+      "clip_balanced_accuracy": 0.8433140438545772,
+      "clip_balanced_macro_f1": 0.8198533950573346,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.9296733666505467,
+      0.7176310459103357,
+      0.8186563234673363
+    ],
+    "fold_f1_std": 0.08659794478412312
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_007",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8139255702280912,
+      "frame_macro_f1": 0.7428218585983328,
+      "clip_balanced_accuracy": 0.7593663222256961,
+      "clip_balanced_macro_f1": 0.7285699324960566,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8041435246263622,
+      0.5947539132806857,
+      0.7750678991980551
+    ],
+    "fold_f1_std": 0.09261781377188369
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_008",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.7683073229291717,
+      "frame_macro_f1": 0.697964436345191,
+      "clip_balanced_accuracy": 0.77889855304118,
+      "clip_balanced_macro_f1": 0.7448409798101756,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.844106958552912,
+      0.5970388574724459,
+      0.7860300055058203
+    ],
+    "fold_f1_std": 0.10547945196509671
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_009",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8199279711884754,
+      "frame_macro_f1": 0.7480155849184453,
+      "clip_balanced_accuracy": 0.7647145894787253,
+      "clip_balanced_macro_f1": 0.7327766374591032,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8041435246263622,
+      0.6035904205969462,
+      0.7750678991980551
+    ],
+    "fold_f1_std": 0.08848820712217641
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_010",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.7430972388955582,
+      "frame_macro_f1": 0.6751359507807146,
+      "clip_balanced_accuracy": 0.742404183213477,
+      "clip_balanced_macro_f1": 0.7111695528178064,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7391330311311501,
+      0.5970388574724459,
+      0.7860300055058203
+    ],
+    "fold_f1_std": 0.08035181974584665
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_011",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.851140456182473,
+      "frame_macro_f1": 0.7938974555438496,
+      "clip_balanced_accuracy": 0.8213951223497343,
+      "clip_balanced_macro_f1": 0.7986837545512671,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.9296733666505467,
+      0.6996057223117232,
+      0.7750678991980551
+    ],
+    "fold_f1_std": 0.09575925350020159
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_012",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.7791116446578632,
+      "frame_macro_f1": 0.722212556183848,
+      "clip_balanced_accuracy": 0.8041131973034433,
+      "clip_balanced_macro_f1": 0.7819986973404979,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8477719487113872,
+      0.712361442014911,
+      0.7860300055058203
+    ],
+    "fold_f1_std": 0.05535253695020068
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_013",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.737094837935174,
+      "frame_macro_f1": 0.6080252683146936,
+      "clip_balanced_accuracy": 0.6618433162115045,
+      "clip_balanced_macro_f1": 0.5877693550429574,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.4025963632478065,
+      0.5875919081590326,
+      0.7306850246899392
+    ],
+    "fold_f1_std": 0.1343052747381541
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_014",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.843937575030012,
+      "frame_macro_f1": 0.773292523614926,
+      "clip_balanced_accuracy": 0.8072282399759884,
+      "clip_balanced_macro_f1": 0.7718735226344924,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8996581861895204,
+      0.604474862586863,
+      0.8080256202649504
+    ],
+    "fold_f1_std": 0.12336154300012954
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_015",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.7262905162064826,
+      "frame_macro_f1": 0.5992555831265509,
+      "clip_balanced_accuracy": 0.6462568391964559,
+      "clip_balanced_macro_f1": 0.5754813840811603,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.4025963632478065,
+      0.6035904205969462,
+      0.670546972139866
+    ],
+    "fold_f1_std": 0.11386118238637706
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_016",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8055222088835534,
+      "frame_macro_f1": 0.7106398490436572,
+      "clip_balanced_accuracy": 0.7474336782766647,
+      "clip_balanced_macro_f1": 0.6950488702279375,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.6434550316102904,
+      0.604474862586863,
+      0.8462777908309718
+    ],
+    "fold_f1_std": 0.10600061915039881
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_017",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.7911164465786314,
+      "frame_macro_f1": 0.6853191489361703,
+      "clip_balanced_accuracy": 0.7381511231197255,
+      "clip_balanced_macro_f1": 0.6821982297778335,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5292334780804401,
+      0.6996057223117232,
+      0.7511367220826277
+    ],
+    "fold_f1_std": 0.09482334173520743
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 4,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_018",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.7959183673469388,
+      "frame_macro_f1": 0.6773260053228335,
+      "clip_balanced_accuracy": 0.7413858381401547,
+      "clip_balanced_macro_f1": 0.6715485657347069,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5151317288598848,
+      0.6293390296534088,
+      0.8191605099230451
+    ],
+    "fold_f1_std": 0.12539227410235868
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_019",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.737094837935174,
+      "frame_macro_f1": 0.6014206028932056,
+      "clip_balanced_accuracy": 0.6527910900637863,
+      "clip_balanced_macro_f1": 0.5721481819746834,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.4420235870488082,
+      0.5133800115595963,
+      0.7331259314954548
+    ],
+    "fold_f1_std": 0.1238819256791431
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 2
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_020",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.7827130852340937,
+      "frame_macro_f1": 0.6439742236516178,
+      "clip_balanced_accuracy": 0.7161159392426727,
+      "clip_balanced_macro_f1": 0.6260477893246075,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5095090023414814,
+      0.5279735536518455,
+      0.7989791877145742
+    ],
+    "fold_f1_std": 0.1323203106811344
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_021",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.7647058823529411,
+      "frame_macro_f1": 0.6245055288771135,
+      "clip_balanced_accuracy": 0.688787773290293,
+      "clip_balanced_macro_f1": 0.6036162920390529,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.40364046680542764,
+      0.6035904205969462,
+      0.7783386992588209
+    ],
+    "fold_f1_std": 0.15308520152016136
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 5
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_022",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.7707082833133253,
+      "frame_macro_f1": 0.6595365418894831,
+      "clip_balanced_accuracy": 0.7136557771958081,
+      "clip_balanced_macro_f1": 0.6485200897499004,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5939696490478206,
+      0.5279735536518455,
+      0.8240385599914339
+    ],
+    "fold_f1_std": 0.12690402163715672
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_023",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.7478991596638656,
+      "frame_macro_f1": 0.6472218188858235,
+      "clip_balanced_accuracy": 0.7203463088863397,
+      "clip_balanced_macro_f1": 0.6675157007196943,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5197756741371268,
+      0.6996057223117232,
+      0.7167086360714148
+    ],
+    "fold_f1_std": 0.08907796047518081
+  },
+  {
+    "family": "decision_tree",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 10
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_024",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.758703481392557,
+      "frame_macro_f1": 0.6431620607272177,
+      "clip_balanced_accuracy": 0.7032092157632219,
+      "clip_balanced_macro_f1": 0.6385555523280815,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5060759026368626,
+      0.6293390296534088,
+      0.7218621702695176
+    ],
+    "fold_f1_std": 0.08839183178086915
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_025",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8715486194477791,
+      "frame_macro_f1": 0.7830649970184853,
+      "clip_balanced_accuracy": 0.8095631064053995,
+      "clip_balanced_macro_f1": 0.7546005073358422,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.9242542609329185,
+      0.4237802369747868,
+      0.8633617044110743
+    ],
+    "fold_f1_std": 0.22296337980585523
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_026",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8607442977190877,
+      "frame_macro_f1": 0.7837719298245613,
+      "clip_balanced_accuracy": 0.8097219745482223,
+      "clip_balanced_macro_f1": 0.7674694834200325,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.9299797877868364,
+      0.4949225048138447,
+      0.8640652161107009
+    ],
+    "fold_f1_std": 0.19145231826769826
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_027",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8691476590636255,
+      "frame_macro_f1": 0.779010137149672,
+      "clip_balanced_accuracy": 0.8060357695447293,
+      "clip_balanced_macro_f1": 0.7500551345368784,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.9184324094779102,
+      0.41128103204625494,
+      0.8633617044110743
+    ],
+    "fold_f1_std": 0.2272082345224336
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_028",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8535414165666266,
+      "frame_macro_f1": 0.7755649193477148,
+      "clip_balanced_accuracy": 0.7983268441054725,
+      "clip_balanced_macro_f1": 0.7563974029362206,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8941281029456674,
+      0.4942886605351898,
+      0.8640652161107009
+    ],
+    "fold_f1_std": 0.18181494191294334
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_029",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8751500600240096,
+      "frame_macro_f1": 0.8016848273967585,
+      "clip_balanced_accuracy": 0.8243044704971777,
+      "clip_balanced_macro_f1": 0.7827213135764419,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.9197714983329056,
+      0.5576634496660902,
+      0.857437940612148
+    ],
+    "fold_f1_std": 0.15806906252555977
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_030",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.865546218487395,
+      "frame_macro_f1": 0.7982911304829112,
+      "clip_balanced_accuracy": 0.820832997564007,
+      "clip_balanced_macro_f1": 0.7867401092600117,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.925604917650217,
+      0.5779449749857639,
+      0.8605850198662983
+    ],
+    "fold_f1_std": 0.15091587716022187
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_031",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8691476590636255,
+      "frame_macro_f1": 0.7990438776074807,
+      "clip_balanced_accuracy": 0.8166877485947415,
+      "clip_balanced_macro_f1": 0.7796316899417683,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8747372363715773,
+      0.5996323450521042,
+      0.8541067990968649
+    ],
+    "fold_f1_std": 0.12510687161668532
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 3,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_032",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8427370948379351,
+      "frame_macro_f1": 0.7771112268553979,
+      "clip_balanced_accuracy": 0.788931037090618,
+      "clip_balanced_macro_f1": 0.7594092866868499,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8129179312677686,
+      0.615511318011303,
+      0.8496401505602968
+    ],
+    "fold_f1_std": 0.10281277621531885
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_033",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8475390156062425,
+      "frame_macro_f1": 0.7234402980197373,
+      "clip_balanced_accuracy": 0.7708377382911544,
+      "clip_balanced_macro_f1": 0.686567811118926,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7549745853759166,
+      0.42556806010092235,
+      0.8586724598655937
+    ],
+    "fold_f1_std": 0.18464420114941135
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_034",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8391356542617047,
+      "frame_macro_f1": 0.7247435391595975,
+      "clip_balanced_accuracy": 0.7711632827911294,
+      "clip_balanced_macro_f1": 0.6978426040957707,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.782230961756376,
+      0.4440671486562931,
+      0.8600782940231712
+    ],
+    "fold_f1_std": 0.18057938995876158
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_035",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8691476590636255,
+      "frame_macro_f1": 0.7766882361476957,
+      "clip_balanced_accuracy": 0.8046689098034852,
+      "clip_balanced_macro_f1": 0.7464789492589048,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.9017619101539289,
+      0.42556806010092235,
+      0.8633617044110743
+    ],
+    "fold_f1_std": 0.2159985683151531
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_036",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8607442977190877,
+      "frame_macro_f1": 0.7734927332395687,
+      "clip_balanced_accuracy": 0.80225326864302,
+      "clip_balanced_macro_f1": 0.7505222709568724,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.9141018884897033,
+      0.44292132022924496,
+      0.8653567846295941
+    ],
+    "fold_f1_std": 0.211565312909833
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_037",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8235294117647058,
+      "frame_macro_f1": 0.6888829604786768,
+      "clip_balanced_accuracy": 0.7569576224320551,
+      "clip_balanced_macro_f1": 0.6669204081291296,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5542789942316727,
+      0.5619187063620165,
+      0.8563570853189525
+    ],
+    "fold_f1_std": 0.14063486896497362
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_038",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8127250900360145,
+      "frame_macro_f1": 0.6861523301646186,
+      "clip_balanced_accuracy": 0.7499868714783848,
+      "clip_balanced_macro_f1": 0.6694342819015109,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5621797237587184,
+      0.5614868811547127,
+      0.8574358250558309
+    ],
+    "fold_f1_std": 0.13934865257899456
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_039",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8115246098439376,
+      "frame_macro_f1": 0.6800331756917107,
+      "clip_balanced_accuracy": 0.7416831823668515,
+      "clip_balanced_macro_f1": 0.6566818575068603,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5254384700235113,
+      0.5670974891321509,
+      0.8592792070234674
+    ],
+    "fold_f1_std": 0.14853180273885555
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": 6,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_040",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8043217286914766,
+      "frame_macro_f1": 0.7070502212565994,
+      "clip_balanced_accuracy": 0.742449194209468,
+      "clip_balanced_macro_f1": 0.6894358513341443,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.6446862674650606,
+      0.5868122792322896,
+      0.8440280742035808
+    ],
+    "fold_f1_std": 0.11017487090502875
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_041",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8559423769507803,
+      "frame_macro_f1": 0.7409449961644518,
+      "clip_balanced_accuracy": 0.7841858157901753,
+      "clip_balanced_macro_f1": 0.7069349970854609,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8074090949393016,
+      0.4129853280043931,
+      0.8723751274672397
+    ],
+    "fold_f1_std": 0.20298595494819024
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_042",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8391356542617047,
+      "frame_macro_f1": 0.7217852086698171,
+      "clip_balanced_accuracy": 0.7699422815701285,
+      "clip_balanced_macro_f1": 0.6937833985466116,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.7711271924109964,
+      0.4440671486562931,
+      0.8600782940231712
+    ],
+    "fold_f1_std": 0.17886861837931015
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_043",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.865546218487395,
+      "frame_macro_f1": 0.7687074829931972,
+      "clip_balanced_accuracy": 0.8008984299870663,
+      "clip_balanced_macro_f1": 0.7392265892285695,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.8699971041262264,
+      0.42556806010092235,
+      0.8804966669237622
+    ],
+    "fold_f1_std": 0.21202396439447724
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_044",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8607442977190877,
+      "frame_macro_f1": 0.7745833566616278,
+      "clip_balanced_accuracy": 0.8042024276002654,
+      "clip_balanced_macro_f1": 0.7537844004741074,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.9131091350411314,
+      0.4570182086295593,
+      0.8653567846295941
+    ],
+    "fold_f1_std": 0.20467850475387236
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_045",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8175270108043218,
+      "frame_macro_f1": 0.6809587163360749,
+      "clip_balanced_accuracy": 0.7514287828862616,
+      "clip_balanced_macro_f1": 0.6602451232556047,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5485220961062607,
+      0.5619187063620165,
+      0.844719730151861
+    ],
+    "fold_f1_std": 0.1365808375355213
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": 1.0,
+      "min_samples_leaf": 2,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_046",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8163265306122449,
+      "frame_macro_f1": 0.6898032200357782,
+      "clip_balanced_accuracy": 0.753266296455923,
+      "clip_balanced_macro_f1": 0.672461076768667,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5820519452150152,
+      0.5614868811547127,
+      0.8505886857167253
+    ],
+    "fold_f1_std": 0.13170453306131844
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_equal",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_047",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.8115246098439376,
+      "frame_macro_f1": 0.6783491107815433,
+      "clip_balanced_accuracy": 0.7422500757908879,
+      "clip_balanced_macro_f1": 0.6556205976315661,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.5183379200394963,
+      0.5670974891321509,
+      0.8592792070234674
+    ],
+    "fold_f1_std": 0.1505503286163094
+  },
+  {
+    "family": "random_forest",
+    "params": {
+      "max_depth": null,
+      "max_features": 1.0,
+      "min_samples_leaf": 5,
+      "n_estimators": 150
+    },
+    "weight_mode": "clip_class_balanced",
+    "feature_set": "posture_10",
+    "features": [
+      "shoulder_tilt_deg",
+      "head_tilt_deg",
+      "torso_tilt_deg",
+      "head_height_ratio",
+      "head_side_offset_ratio",
+      "nose_below_ears_ratio",
+      "torso_length_ratio",
+      "hip_width_ratio",
+      "nose_depth_vs_shoulders_ratio",
+      "shoulder_depth_vs_hips_ratio"
+    ],
+    "candidate_id": "shoulder_tilt_048",
+    "cv": {
+      "frames": 833,
+      "clips": 21,
+      "frame_accuracy": 0.801920768307323,
+      "frame_macro_f1": 0.7034557454437969,
+      "clip_balanced_accuracy": 0.7401684560796733,
+      "clip_balanced_macro_f1": 0.6862528090313031,
+      "coverage": 1.0,
+      "clip_balanced_coverage": 1.0
+    },
+    "fold_f1": [
+      0.6348249353652933,
+      0.5868122792322896,
+      0.8440280742035808
+    ],
+    "fold_f1_std": 0.11166971818290819
+  }
+]

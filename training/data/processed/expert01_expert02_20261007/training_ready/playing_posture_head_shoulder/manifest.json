@@ -1,0 +1,82 @@
+{
+  "reviewed_frames": 1359,
+  "usable_frames": 1359,
+  "unusable_frames": 0,
+  "feature_columns": [
+    "shoulder_tilt_deg",
+    "head_tilt_deg",
+    "torso_tilt_deg",
+    "head_height_ratio",
+    "head_side_offset_ratio",
+    "nose_below_ears_ratio",
+    "torso_length_ratio",
+    "hip_width_ratio",
+    "nose_depth_vs_shoulders_ratio",
+    "shoulder_depth_vs_hips_ratio"
+  ],
+  "target_columns": [
+    "target_head_down",
+    "target_shoulder_tilt"
+  ],
+  "splits": {
+    "train": {
+      "frames": 833,
+      "clips": 21,
+      "target_counts": {
+        "target_head_down": {
+          "0": 619,
+          "1": 214
+        },
+        "target_shoulder_tilt": {
+          "1": 184,
+          "0": 649
+        }
+      }
+    },
+    "val": {
+      "frames": 258,
+      "clips": 7,
+      "target_counts": {
+        "target_head_down": {
+          "1": 78,
+          "0": 180
+        },
+        "target_shoulder_tilt": {
+          "0": 204,
+          "1": 54
+        }
+      }
+    },
+    "test": {
+      "frames": 268,
+      "clips": 7,
+      "target_counts": {
+        "target_head_down": {
+          "0": 237,
+          "1": 31
+        },
+        "target_shoulder_tilt": {
+          "0": 215,
+          "1": 53
+        }
+      }
+    }
+  },
+  "split_files": {
+    "train": "train.csv",
+    "val": "val.csv",
+    "test": "test.csv"
+  },
+  "split_sha256": {
+    "train": "34661efc53941ac3e187b10f26a834a323b403b790dc54209cd61d7e96d2bf22",
+    "val": "e28879a29f9b2906ad89e5911b3fc9cf6e23d2240ce856297a110672658ef37b",
+    "test": "8cb012afa22bd030909b6b23f0e1911652d42e4d9dcc569124f74ba619346d60"
+  },
+  "dataset_sha256": "1bee7fa0034391ed2d290437976f547b1f36d7ec2a8699d086e3a10ff80d7e29",
+  "model_trained": false,
+  "human_review_complete": true,
+  "data_ready": true,
+  "weight_column": "clip_weight",
+  "group_column": "clip_id",
+  "experimental": false
+}

@@ -1,0 +1,68 @@
+{
+  "reviewed_frames": 558,
+  "usable_frames": 421,
+  "unusable_frames": 137,
+  "feature_columns": [
+    "bow_side_horizontal_ratio",
+    "bow_side_perpendicular_ratio",
+    "wrist_height_screen_ratio",
+    "wrist_height_body_ratio"
+  ],
+  "target_columns": [
+    "target_bow_angle_wrong"
+  ],
+  "splits": {
+    "train": {
+      "frames": 261,
+      "clips": 33,
+      "target_counts": {
+        "target_bow_angle_wrong": {
+          "0": 164,
+          "1": 97
+        }
+      }
+    },
+    "val": {
+      "frames": 83,
+      "clips": 11,
+      "target_counts": {
+        "target_bow_angle_wrong": {
+          "1": 39,
+          "0": 44
+        }
+      }
+    },
+    "test": {
+      "frames": 77,
+      "clips": 11,
+      "target_counts": {
+        "target_bow_angle_wrong": {
+          "0": 53,
+          "1": 24
+        }
+      }
+    }
+  },
+  "split_files": {
+    "train": "train.csv",
+    "val": "val.csv",
+    "test": "test.csv"
+  },
+  "split_sha256": {
+    "train": "586f16d54f34b9ee70beaa8fcdb103c7b59e9364daaef602a08ac3f9dfb12a8a",
+    "val": "c108725ef879996e6cd665e53a54e527f90e00499695ef0a56e51ac50232b815",
+    "test": "f93634174020af8699feb39db8cebab8aced2b92406ccf049df9303e42bf5eb5"
+  },
+  "dataset_sha256": "1bee7fa0034391ed2d290437976f547b1f36d7ec2a8699d086e3a10ff80d7e29",
+  "model_trained": false,
+  "human_review_complete": true,
+  "data_ready": true,
+  "weight_column": "clip_weight",
+  "group_column": "clip_id",
+  "experimental": true,
+  "annotation_schema": "combined_bow_error_v2",
+  "target_semantics": {
+    "bow_angle_wrong": "angle_wrong_or_bow_floating"
+  },
+  "feedback_th": "ปรับองศาการสีให้ถูกต้อง"
+}

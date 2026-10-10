@@ -1,0 +1,66 @@
+{
+  "reviewed_frames": 351,
+  "usable_frames": 273,
+  "unusable_frames": 78,
+  "feature_columns": [
+    "bow_side_horizontal_ratio",
+    "bow_side_perpendicular_ratio",
+    "wrist_height_screen_ratio",
+    "wrist_height_body_ratio"
+  ],
+  "target_columns": [
+    "error_type"
+  ],
+  "splits": {
+    "train": {
+      "frames": 168,
+      "clips": 32,
+      "target_counts": {
+        "error_type": {
+          "grip_too_high": 30,
+          "grip_too_low": 28,
+          "none": 110
+        }
+      }
+    },
+    "val": {
+      "frames": 52,
+      "clips": 11,
+      "target_counts": {
+        "error_type": {
+          "grip_too_high": 9,
+          "grip_too_low": 10,
+          "none": 33
+        }
+      }
+    },
+    "test": {
+      "frames": 53,
+      "clips": 10,
+      "target_counts": {
+        "error_type": {
+          "grip_too_high": 12,
+          "grip_too_low": 12,
+          "none": 29
+        }
+      }
+    }
+  },
+  "split_files": {
+    "train": "train.csv",
+    "val": "val.csv",
+    "test": "test.csv"
+  },
+  "split_sha256": {
+    "train": "bf247d00e70d0fa37834abb7c5cd8543e21de6a1a1453a6cec829891f8bf2ffd",
+    "val": "5b9b75839f30badac1724e8a2098cec5fce8ec107f0dbb9d629a29b100ebad57",
+    "test": "9682638b5c0119e8808a428c04e38ef2553b9516e27ad6bc7fe663eb96addff5"
+  },
+  "dataset_sha256": "1bee7fa0034391ed2d290437976f547b1f36d7ec2a8699d086e3a10ff80d7e29",
+  "model_trained": false,
+  "human_review_complete": true,
+  "data_ready": true,
+  "weight_column": "clip_weight",
+  "group_column": "clip_id",
+  "experimental": false
+}

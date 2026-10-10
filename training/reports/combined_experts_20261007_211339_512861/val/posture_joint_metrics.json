@@ -1,0 +1,9 @@
+{
+  "frames": 258,
+  "exact_match": 0.5968992248062015,
+  "clip_balanced_exact_match": 0.5707138288770941,
+  "jointly_positive_frames": 0,
+  "jointly_positive_clips": 0,
+  "both_symptoms_detected": 0,
+  "joint_recall": null
+}

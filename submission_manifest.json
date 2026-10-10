@@ -1,0 +1,1339 @@
+{
+  "schema": 1,
+  "run": "combined_experts_20261007_211339_512861",
+  "prepared_on": "2026-10-11",
+  "files": {
+    ".gitattributes": {
+      "bytes": 175,
+      "sha256": "77b53cd90f348a496140e38b7bc565c2b1558cf040aec9766a6038fd9d12ca82"
+    },
+    ".gitignore": {
+      "bytes": 300,
+      "sha256": "2b4151699c7677516108a2b4b45f967f0b92c33c57af030f869aa7de4cedbdad"
+    },
+    "constraints.txt": {
+      "bytes": 2448,
+      "sha256": "5a182173a598be25727d67da68486c8da1cbc4dba54e5806d7be419769959c5f"
+    },
+    "README.md": {
+      "bytes": 13718,
+      "sha256": "a1dcc01fef0023f7bdf8d66820e6a7716567e3b82ed382912e47de356465ac50"
+    },
+    "requirements-notebooks.txt": {
+      "bytes": 89,
+      "sha256": "086d20363f5ed6c1c077e94b9af5bc2433ff73be0f873d0b7a8fd04288fde9f1"
+    },
+    "requirements-test.txt": {
+      "bytes": 44,
+      "sha256": "52793e3192a3401fee13e2931aa77bc209901b35e147bedb1b4c4fd0855b6865"
+    },
+    "requirements.txt": {
+      "bytes": 339,
+      "sha256": "3f275b97607eda1539d8053cb004e5ff0bd0326defd065bfc4d80bb47ed75c65"
+    },
+    "setup.ps1": {
+      "bytes": 764,
+      "sha256": "4b3648e35810a542bf2e4cf1a7deedb63e450d4526672b35f94519b0a656c0e1"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 2539,
+      "sha256": "d5113c0df016cd6414bf11a963156a4e2e949442cbaf43fe881579fdca66787f"
+    },
+    ".github/workflows/verify.yml": {
+      "bytes": 754,
+      "sha256": "60f4e284efaa417f0b508ed8079f20388f68fe38a37c76dc3a738988f7a3ff5f"
+    },
+    "docs/SUBMISSION.md": {
+      "bytes": 4508,
+      "sha256": "f6d8459560eee2ee315327d626bac114226d71d8e7e2522512ae2623bac67fc1"
+    },
+    "docs/verification.json": {
+      "bytes": 770,
+      "sha256": "f6d13ee3893f08608bdcdec746e0eefffbd3b708671f93eea2928684e7737831"
+    },
+    "licenses/HLSjs_LICENSE": {
+      "bytes": 1338,
+      "sha256": "ca8773cf798c7ed997d4dd7c8e23c348699f8d5b7462636694cc14de6cda12db"
+    },
+    "licenses/Inter_LICENSE": {
+      "bytes": 4477,
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    "licenses/Lucide_LICENSE": {
+      "bytes": 880,
+      "sha256": "1e7290b35280a048667bbf0ebabac1c7fd52a75300e8b2946ac165715997f2bc"
+    },
+    "licenses/NotoSansThai_LICENSE": {
+      "bytes": 4378,
+      "sha256": "bd85ada3eef71267263e0fd24a40ae20380015c7cf1afa0c27a4340b03431320"
+    },
+    "licenses/NotoSerifThai_LICENSE": {
+      "bytes": 4378,
+      "sha256": "bd85ada3eef71267263e0fd24a40ae20380015c7cf1afa0c27a4340b03431320"
+    },
+    "licenses/ReactDOM_LICENSE": {
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    "licenses/React_LICENSE": {
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    "scripts/check_install.py": {
+      "bytes": 1015,
+      "sha256": "4b7d655c9692cae5385a4dc8c28fd1b69b655f813ee0e321d18db4865157f79b"
+    },
+    "scripts/verify_manifest.py": {
+      "bytes": 717,
+      "sha256": "2eaab55407c6c2ba45cda1609f18eb916a8c1aaebf7085d3330a24c33ccb1d29"
+    },
+    "scripts/verify_notebooks.py": {
+      "bytes": 1423,
+      "sha256": "85917c64ec1bb2fa73d1364136d51ca9ac3ed121ea1e77381864893103dede38"
+    },
+    "tests/test_submission.py": {
+      "bytes": 3224,
+      "sha256": "bed0b7635fd883cec1872143bd5eb50cb8c284930198137147d386e0e396da51"
+    },
+    "training/data/extracted/expert01_expert02_20261007/video_frames/expert_02/bow_hold/E02_BH_bow_angle_wrong_S01_T02.mp4/E02_BH_bow_angle_wrong_S01_T02.mp4_frame_000040.jpg": {
+      "bytes": 235010,
+      "sha256": "6682202f9931c328ebfad81b786fc1c6d688eb69789017ec45f35ec265e67cc2"
+    },
+    "training/data/extracted/expert01_expert02_20261007/video_frames/expert_02/bow_hold/E02_BH_bow_angle_wrong_S01_T04.mp4/E02_BH_bow_angle_wrong_S01_T04.mp4_frame_000000.jpg": {
+      "bytes": 250968,
+      "sha256": "4dcacacc0f9c7977887ad7cd0cc50af5e9d0dabd1ee4b9d2d960dc7d6da123ab"
+    },
+    "training/data/extracted/video_frames/expert_01/bow_hold/E01_BH_bow_angle_wrong_S01_T02.mp4/E01_BH_bow_angle_wrong_S01_T02.mp4_frame_000000.jpg": {
+      "bytes": 248779,
+      "sha256": "82577d0ae417d6815a18d9b318c607c69f44f282e5fe80abffdf9e810511d111"
+    },
+    "training/data/extracted/video_frames/expert_01/bow_hold/E01_BH_bow_angle_wrong_S01_T05.mp4/E01_BH_bow_angle_wrong_S01_T05.mp4_frame_000010.jpg": {
+      "bytes": 237793,
+      "sha256": "e59443b2df051a98460757f1dadf277dbecf0628aa84d87eed24c118e3a098f9"
+    },
+    "training/data/extracted/video_frames/expert_01/bow_hold/E01_BH_grip_too_high_S01_T03.mp4/E01_BH_grip_too_high_S01_T03.mp4_frame_000109.jpg": {
+      "bytes": 231296,
+      "sha256": "4ea6a71ff4cb6823f7bc1f7f1316f18823485503387041ccf4f0830c6991ebc9"
+    },
+    "training/data/extracted/video_frames/expert_01/bow_hold/E01_BH_grip_too_low_S01_T02.mp4/E01_BH_grip_too_low_S01_T02.mp4_frame_000060.jpg": {
+      "bytes": 200359,
+      "sha256": "1f3ace9027d92726c380a4976e903f9e0e96f50d4bf4ead75a7359b03813f2c3"
+    },
+    "training/data/extracted/video_frames/expert_01/playing_posture/E01_PP_back_hunched_S01_T04.mp4/E01_PP_back_hunched_S01_T04.mp4_frame_000000.jpg": {
+      "bytes": 235686,
+      "sha256": "826e9dab982e8aa9e1635c3ddb5ecfe9929fe37e30827fa682d55978f04ca010"
+    },
+    "training/data/extracted/video_frames/expert_01/playing_posture/E01_PP_back_hunched_S01_T04.mp4/E01_PP_back_hunched_S01_T04.mp4_frame_000020.jpg": {
+      "bytes": 219621,
+      "sha256": "af943c1e001f6ae5305fd3487707846daf5f13e45ac8734b551863569b9e8e59"
+    },
+    "training/data/extracted/video_frames/expert_01/playing_posture/E01_PP_back_hunched_S01_T04.mp4/E01_PP_back_hunched_S01_T04.mp4_frame_000079.jpg": {
+      "bytes": 224007,
+      "sha256": "9e337275dbb999affeabf5a4250d15e10ef93e4b2dd78f258342dc1f66902daf"
+    },
+    "training/data/extracted/video_frames/expert_01/playing_posture/E01_PP_back_hunched_S01_T05.mp4/E01_PP_back_hunched_S01_T05.mp4_frame_000020.jpg": {
+      "bytes": 222499,
+      "sha256": "74332aacf65f22dc0e7d498fce7a97b67889f32af17bfb140af4b6fa65a0d281"
+    },
+    "training/data/extracted/video_frames/expert_01/playing_posture/E01_PP_back_hunched_S01_T05.mp4/E01_PP_back_hunched_S01_T05.mp4_frame_000179.jpg": {
+      "bytes": 240420,
+      "sha256": "03247076cdb1eaf45aa62f339fdd6c06a82cd54100ebb5002a0006665c1e806d"
+    },
+    "training/data/extracted/video_frames/expert_01/playing_posture/E01_PP_correct_S01_T02.mp4/E01_PP_correct_S01_T02.mp4_frame_000129.jpg": {
+      "bytes": 232327,
+      "sha256": "757b596ebd9a8c88096ef71bb63fcbc8979f25263380f721249f18b87c88a0c9"
+    },
+    "training/data/extracted/video_frames/expert_01/playing_posture/E01_PP_correct_S01_T02.mp4/E01_PP_correct_S01_T02.mp4_frame_000863.jpg": {
+      "bytes": 240546,
+      "sha256": "054acbfefa154aa948f6d81f9e6cd9c7894c564767c3df648daedc1f64bd2b86"
+    },
+    "training/data/extracted/video_frames/expert_01/playing_posture/E01_PP_correct_S01_T05.mp4/E01_PP_correct_S01_T05.mp4_frame_000238.jpg": {
+      "bytes": 237898,
+      "sha256": "386a5d758aaacc2be344a303da8947a2c5071b9ff2396416779d5071edf7920e"
+    },
+    "training/data/extracted/video_frames/expert_01/playing_posture/E01_PP_correct_S01_T05.mp4/E01_PP_correct_S01_T05.mp4_frame_000476.jpg": {
+      "bytes": 240401,
+      "sha256": "113bb1012f14d096a6c995e15e2be5006e8892dabf92341be7e1743a9046e76d"
+    },
+    "training/data/extracted/video_frames/expert_01/playing_posture/E01_PP_head_down_S01_T03.mp4/E01_PP_head_down_S01_T03.mp4_frame_000000.jpg": {
+      "bytes": 247588,
+      "sha256": "f8263f727f0250951c97113db3eda7891a68ce65646d504247b2f07d3c36cb5d"
+    },
+    "training/data/processed/expert01_expert02_20261007/contract.json": {
+      "bytes": 937568,
+      "sha256": "59bb48755d16c783e06463b2de718868e92975d94b1665a1511242e9c1fb462d"
+    },
+    "training/data/processed/expert01_expert02_20261007/readiness_checks.json": {
+      "bytes": 866,
+      "sha256": "d3685f674a5535860571f786f47a8eb1cb9e23df2ec6bb1a63c6c1f7c71cb1c2"
+    },
+    "training/data/processed/expert01_expert02_20261007/summary.json": {
+      "bytes": 5996,
+      "sha256": "a49e92a1d77c09309e2c8195fe2cf1790e62c522f9307053b8b573054dd621e8"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/bow_angle_float_body_proxy/manifest.json": {
+      "bytes": 1746,
+      "sha256": "1ae8e19298babee7882029d2d99d5b735e220f2dcb3ff3d0399d5285b5c8a343"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/bow_angle_float_body_proxy/test.csv": {
+      "bytes": 31612,
+      "sha256": "f93634174020af8699feb39db8cebab8aced2b92406ccf049df9303e42bf5eb5"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/bow_angle_float_body_proxy/test_audit.csv": {
+      "bytes": 45688,
+      "sha256": "aec7943641ae5da4d978a95122261e485dce6ab40d1099e1e43ced4c6051a090"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/bow_angle_float_body_proxy/train.csv": {
+      "bytes": 106294,
+      "sha256": "586f16d54f34b9ee70beaa8fcdb103c7b59e9364daaef602a08ac3f9dfb12a8a"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/bow_angle_float_body_proxy/train_audit.csv": {
+      "bytes": 133075,
+      "sha256": "007ce09cd571315b9f619ee017ac16e79fb92842d832bd169a4bbd2ef317a570"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/bow_angle_float_body_proxy/val.csv": {
+      "bytes": 33766,
+      "sha256": "c108725ef879996e6cd665e53a54e527f90e00499695ef0a56e51ac50232b815"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/bow_angle_float_body_proxy/val_audit.csv": {
+      "bytes": 42970,
+      "sha256": "9d06ddcbd2028f0233550e0c1dd053c88bc25471bfc7eaa54ad9c516a39cca72"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/initial_grip_rightmost/manifest.json": {
+      "bytes": 1610,
+      "sha256": "5e488f9d5e36130eb4a50e3aa95bfc627242942342479ffe75671d8fd0641e42"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/initial_grip_rightmost/test.csv": {
+      "bytes": 21789,
+      "sha256": "9682638b5c0119e8808a428c04e38ef2553b9516e27ad6bc7fe663eb96addff5"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/initial_grip_rightmost/test_audit.csv": {
+      "bytes": 28078,
+      "sha256": "5850a035d421dd1e941cfdb4c3af500dcddce3f75cb28f879c462a36c8781f7c"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/initial_grip_rightmost/train.csv": {
+      "bytes": 68165,
+      "sha256": "bf247d00e70d0fa37834abb7c5cd8543e21de6a1a1453a6cec829891f8bf2ffd"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/initial_grip_rightmost/train_audit.csv": {
+      "bytes": 85136,
+      "sha256": "045285502e85e182f96812d3500ed18ca3432731ec98944b6bb5055e07127d1a"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/initial_grip_rightmost/val.csv": {
+      "bytes": 21145,
+      "sha256": "5b9b75839f30badac1724e8a2098cec5fce8ec107f0dbb9d629a29b100ebad57"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/initial_grip_rightmost/val_audit.csv": {
+      "bytes": 26129,
+      "sha256": "66789c03dce7bc12714c1e2a39ca3f91f945f6ae52dbfd63618bee2e7e6e242d"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/playing_posture_head_shoulder/manifest.json": {
+      "bytes": 1939,
+      "sha256": "6288bf46da4804366cd40d511c6163f7a9556809a20246e51c784ee40fa30809"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/playing_posture_head_shoulder/test.csv": {
+      "bytes": 140158,
+      "sha256": "8cb012afa22bd030909b6b23f0e1911652d42e4d9dcc569124f74ba619346d60"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/playing_posture_head_shoulder/test_audit.csv": {
+      "bytes": 140158,
+      "sha256": "8cb012afa22bd030909b6b23f0e1911652d42e4d9dcc569124f74ba619346d60"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/playing_posture_head_shoulder/train.csv": {
+      "bytes": 436167,
+      "sha256": "34661efc53941ac3e187b10f26a834a323b403b790dc54209cd61d7e96d2bf22"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/playing_posture_head_shoulder/train_audit.csv": {
+      "bytes": 436167,
+      "sha256": "34661efc53941ac3e187b10f26a834a323b403b790dc54209cd61d7e96d2bf22"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/playing_posture_head_shoulder/val.csv": {
+      "bytes": 135053,
+      "sha256": "e28879a29f9b2906ad89e5911b3fc9cf6e23d2240ce856297a110672658ef37b"
+    },
+    "training/data/processed/expert01_expert02_20261007/training_ready/playing_posture_head_shoulder/val_audit.csv": {
+      "bytes": 135053,
+      "sha256": "e28879a29f9b2906ad89e5911b3fc9cf6e23d2240ce856297a110672658ef37b"
+    },
+    "training/models/combined_experts_20261007_211339_512861/summary.json": {
+      "bytes": 18223,
+      "sha256": "228c139101790d04723401624e375ff28d765f1d7f0b1cf02f5412228ca9d86e"
+    },
+    "training/models/combined_experts_20261007_211339_512861/final/bow_error.joblib": {
+      "bytes": 3461,
+      "sha256": "18d4e0fb88c6b750e9a5650c962bc03e46018e5d52b1e1e7e3a41fa29dc4014d"
+    },
+    "training/models/combined_experts_20261007_211339_512861/final/head_down.joblib": {
+      "bytes": 934434,
+      "sha256": "1a9f06ef6b1f03cdbb093a011f680ec87501ffc1700ee7c4a0dd243dcd7bf5b7"
+    },
+    "training/models/combined_experts_20261007_211339_512861/final/initial_grip.joblib": {
+      "bytes": 378401,
+      "sha256": "235e8e4ed69905ce57d05943f5908c6e7513ddde603622cdbeb45becd17fe899"
+    },
+    "training/models/combined_experts_20261007_211339_512861/final/shoulder_tilt.joblib": {
+      "bytes": 231895,
+      "sha256": "211c20c2808ca733c633a5fd2f623e03930ef4637b9f15dc5633a9f5a591cfb4"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/bow_error.joblib": {
+      "bytes": 3454,
+      "sha256": "08d4aeaac7bca946d7be0324191be0f1372899d0acb4c56891df7300d601f0b8"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/bow_error_dummy.joblib": {
+      "bytes": 1103,
+      "sha256": "d06e3d62b6c58e9aaa60ed2fa11260d5d35bb24db4c078fa56e713c3e287ec8a"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/head_down.joblib": {
+      "bytes": 689803,
+      "sha256": "3d13bddeb0cf550aea1f8c451c619e417c8ff396bdf6ac31a38a358395773b00"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/head_down_dummy.joblib": {
+      "bytes": 1310,
+      "sha256": "ded455379d1aa803019e5002675d09832702473c9079dc11ac939f3f0702c76c"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/initial_grip.joblib": {
+      "bytes": 289978,
+      "sha256": "609c20b928e960a7a693eacb19dd6007d6fb1a4e689068e9f43718c2ecbb5995"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/initial_grip_dummy.joblib": {
+      "bytes": 1116,
+      "sha256": "44f3bf80fa9cbb197573289c3f48dba23b06899495cb3279e81ebd1046ce0e46"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/shoulder_tilt.joblib": {
+      "bytes": 222944,
+      "sha256": "6636f97539c67af071104f36383d4daecfc253f354038a6a607a870f2f9adaeb"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/shoulder_tilt_dummy.joblib": {
+      "bytes": 1310,
+      "sha256": "e03e5d2851ccef1e373f2be1414eb757d771972aa49d7a5a381c93790ef7cfbc"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/candidates/bow_error_011.joblib": {
+      "bytes": 3454,
+      "sha256": "08d4aeaac7bca946d7be0324191be0f1372899d0acb4c56891df7300d601f0b8"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/candidates/bow_error_031.joblib": {
+      "bytes": 197079,
+      "sha256": "e5b413d067697c1e0ecf67c38f7c8a1022f45bfaf17c4750664e906a600e9918"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/candidates/head_down_020.joblib": {
+      "bytes": 6643,
+      "sha256": "ca682426c838fb8ff0f7acc640eec85fa9ed95c0808d6d505aeeb2de538656cc"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/candidates/head_down_046.joblib": {
+      "bytes": 689803,
+      "sha256": "3d13bddeb0cf550aea1f8c451c619e417c8ff396bdf6ac31a38a358395773b00"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/candidates/initial_grip_005.joblib": {
+      "bytes": 3048,
+      "sha256": "3a2ae1b4da43f1a09c486cfef3fd9890551adc19bf1db0a2e37254dfe83f3894"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/candidates/initial_grip_040.joblib": {
+      "bytes": 289978,
+      "sha256": "609c20b928e960a7a693eacb19dd6007d6fb1a4e689068e9f43718c2ecbb5995"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/candidates/shoulder_tilt_006.joblib": {
+      "bytes": 3287,
+      "sha256": "b72c11e617f9ddcb94ad6fd358ea02211426f3c2b55bb3da36744b6805f026f9"
+    },
+    "training/models/combined_experts_20261007_211339_512861/validation/candidates/shoulder_tilt_030.joblib": {
+      "bytes": 222944,
+      "sha256": "6636f97539c67af071104f36383d4daecfc253f354038a6a607a870f2f9adaeb"
+    },
+    "training/models/pretrained/hand_landmarker.task": {
+      "bytes": 7819105,
+      "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1"
+    },
+    "training/models/pretrained/model_info.json": {
+      "bytes": 398,
+      "sha256": "d3791f70d7702861d437dbe2f7a08225ffad19bda407a02e1bf236454abc1558"
+    },
+    "training/models/pretrained/pose_landmarker_heavy.task": {
+      "bytes": 30664242,
+      "sha256": "64437af838a65d18e5ba7a0d39b465540069bc8aae8308de3e318aad31fcbc7b"
+    },
+    "training/notebooks/15_combined_experts/01_train_combined_experts.ipynb": {
+      "bytes": 1401181,
+      "sha256": "1c3ffb7f6b67859272b9daffa722876d6fba046a42a4ec2f5e859522f68778c4"
+    },
+    "training/notebooks/15_combined_experts/02_validation_results.ipynb": {
+      "bytes": 3036413,
+      "sha256": "bb4c57423df38be7178b6b614b944fee01824eb01aeec55da5ee25f2491e7dc0"
+    },
+    "training/notebooks/15_combined_experts/03_test_results.ipynb": {
+      "bytes": 3038792,
+      "sha256": "ce3240c2e33e0bc58fc2c577d8a5f8911a92c12fe7653e239f0109ec602aac71"
+    },
+    "training/notebooks/15_combined_experts/README.md": {
+      "bytes": 8371,
+      "sha256": "69054fb2e7a34ffd85ff305adb9ed6ad12f2db4db46abcbbde68be53bf940564"
+    },
+    "training/notebooks/15_combined_experts/run.json": {
+      "bytes": 56,
+      "sha256": "382a759a9e6426e751a49e6aa5dccbce55aaf78195c269ac177dbb4ccdeac1d7"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/completion.json": {
+      "bytes": 824,
+      "sha256": "7c5d626edaecec65d135edde36ec59d8a40450d0e18b1e15410851691e2995a3"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/cv_bow_error.csv": {
+      "bytes": 8740,
+      "sha256": "cf9d306ccc52e55d8339cfc00e7add020b406e11af13829756ccb0838dc28190"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/cv_bow_error.json": {
+      "bytes": 42844,
+      "sha256": "27e22e95e73f2b244a3cfcead1c8cf697f3331a91f9991a5852d5e6f7b9a144c"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/cv_bow_error.png": {
+      "bytes": 29509,
+      "sha256": "290463c16d2d06636cdcfdf0ab7117787a749b9b1cf4c519f5bb1c6c1638f9a4"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/cv_folds.json": {
+      "bytes": 24090,
+      "sha256": "71c567119a899ff4c698368a38c24bb092db36d281e64af3c7f304d61436d0cf"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/cv_head_down.csv": {
+      "bytes": 8930,
+      "sha256": "27203a5fa3ea60611e9ed7ee64864150e0c52f7c99faffe063219fd7f916b4fa"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/cv_head_down.json": {
+      "bytes": 50661,
+      "sha256": "df0d623e1db29be0f152c9f832a81ab8d2c41fa1bf2b539a2296faba043edc07"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/cv_head_down.png": {
+      "bytes": 29267,
+      "sha256": "6f17308dc5d2226ea5fc6f3be742fa3b33ea6c48479838183fc0dca6d7deccd3"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/cv_initial_grip.csv": {
+      "bytes": 17674,
+      "sha256": "c9b705ec7faee53de1949399cf5708c7e1b2413147501fae7023bcbe3ae6e652"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/cv_initial_grip.json": {
+      "bytes": 82352,
+      "sha256": "5a3362d52f7e61b2ba30ad85e1b1f2b6e619d4d15fb1476e1863de51b021c117"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/cv_initial_grip.png": {
+      "bytes": 29404,
+      "sha256": "56f05d69acc959bfd257e921508b3d9812f7ef17be8d725623f533476f1e1a00"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/cv_shoulder_tilt.csv": {
+      "bytes": 9106,
+      "sha256": "42e7b0bee11a396fd88cf6cf0a82be8c9953102293ea3700e8ae5a54324d439c"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/cv_shoulder_tilt.json": {
+      "bytes": 50838,
+      "sha256": "cf8850acd94e0bcd7744e93fa0c62a4718185a40a2b7f13ac408093c3c34e492"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/cv_shoulder_tilt.png": {
+      "bytes": 30124,
+      "sha256": "ade32185cc031c142d06d904f20017871708c367a45c453b140c6cc72f358606"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/grip_features_by_expert.png": {
+      "bytes": 63669,
+      "sha256": "a4c4dfb94bf847bc638bed255fdc22bc39669e94c7d37bb688fbb507e7580e2d"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/importance_bow_error.csv": {
+      "bytes": 211,
+      "sha256": "94cf12bcaed2e2a6506d4ac0c4946bdac3a07624e7c09cc99db2f9b74dae3d8e"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/importance_bow_error.png": {
+      "bytes": 22923,
+      "sha256": "a9af3e65f2776b8ba10bd6748b59760d0153ce7b3924027ef7cf091fb060c07f"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/importance_head_down.csv": {
+      "bytes": 440,
+      "sha256": "70edca8522d7a8022ac6582afc22aa830fbf39f5d84942569ad7d1b76181b9ef"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/importance_head_down.png": {
+      "bytes": 30044,
+      "sha256": "e81ac8c85143804ac844644ba4e0b90587c288f2169bd70fa5f02006e18cae15"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/importance_initial_grip.csv": {
+      "bytes": 114,
+      "sha256": "7e76fc51be342f0227c0cd4af03280a772262d6f26bb5c84887ca7ac56b06196"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/importance_initial_grip.png": {
+      "bytes": 17322,
+      "sha256": "c105aee90ee25df52b4de18576cc94ee38bf5a5ca2e7129d261f3d7442b39704"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/importance_shoulder_tilt.csv": {
+      "bytes": 444,
+      "sha256": "af59800e767a62d0548f78545bfc56fe8e59a5040a797745c03376338a2a4b5e"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/importance_shoulder_tilt.png": {
+      "bytes": 30885,
+      "sha256": "690278abfc82c858ea8950e0d04e7d23562e76d012993507351d5554bad2e10e"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/RESULTS_ANALYSIS_TH.md": {
+      "bytes": 12223,
+      "sha256": "aa3cbee0cadc100692a3811d110a8c6d8e88b78bf12598536333cd2c8bb29e6e"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/rules_bow_error.txt": {
+      "bytes": 727,
+      "sha256": "139abc98ef3da1d3dfe7788e72010608a420e1c29d1d6b793836a68b7e973780"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/selection.json": {
+      "bytes": 23044,
+      "sha256": "5c15703e0a3a04ee21f9807d2998a4c4647df712b9a317c96621ee42911894ac"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/selection_lock.json": {
+      "bytes": 411,
+      "sha256": "52c12f3cf0e86473ef0e124290dca3caab3dd3a22c787e5d81046ba3910d0e62"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/training_record.json": {
+      "bytes": 18223,
+      "sha256": "228c139101790d04723401624e375ff28d765f1d7f0b1cf02f5412228ca9d86e"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/train_labels.png": {
+      "bytes": 44648,
+      "sha256": "b451a85f80f583fed5e4fdb515423e12c4b3a54b117a38a79d8a5b5980a69046"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/train_val_class_counts.csv": {
+      "bytes": 1409,
+      "sha256": "3007eff172b9d2f8e1247e4524c79e9a7a299a44267e9c6588fb6c20719a561e"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/tree_bow_error.png": {
+      "bytes": 179647,
+      "sha256": "906f708c718de0c6f823db16d6e720e90221de46eabb5a270e10c63e2f449632"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/tree_head_down.png": {
+      "bytes": 214008,
+      "sha256": "3bc69f64c59d02ff08971387dd866beed1257c96873db299a6bfbf76acff6120"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/tree_initial_grip.png": {
+      "bytes": 180292,
+      "sha256": "63d82b4637cece969fc887dc81bdf8adee2031d7d663ac46c13917b390ad6a3e"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/tree_shoulder_tilt.png": {
+      "bytes": 163413,
+      "sha256": "fd9a1c35ec5997877b596f63e676a57736b4548e2beaaa17e0dfe5f387b3e15b"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/validation_shortlist.csv": {
+      "bytes": 1555,
+      "sha256": "c18a1927a404af0a99538c724512f8b82af1120d20c46af5ce8ed90e9a9e896f"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/provenance/build_combined_notebooks.py": {
+      "bytes": 48949,
+      "sha256": "a78b4d647f2c622889319dadc516528632a37f7d29ddac9166a86c78ef916975"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/provenance/combined_experts.py": {
+      "bytes": 24545,
+      "sha256": "b758b9e24a4be1f195220df632ad5440a5e50c16ee227e18bd0dd07fde4eb42b"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/provenance/posture_features.py": {
+      "bytes": 6777,
+      "sha256": "efd22ac13e8c125d5d99f69f4dec638881690910dcd59fb4e9213e875e09cae4"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/provenance/torso_hand_proxy.py": {
+      "bytes": 3276,
+      "sha256": "7e9fed1681dba395c655fa340fa4317b186ca4106bdf7521e4ec69a108950222"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/all_errors.csv": {
+      "bytes": 40567,
+      "sha256": "c28c3eec7a3c28be2585f3908f53ef96d144ab484831d04eb528e89382f75ebc"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/bootstrap_intervals.json": {
+      "bytes": 952,
+      "sha256": "e8ddef7fa21f22a9d57e97addd03d1c6916492b1fa855ef1426dd7457c972d8c"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/confusion_bow_error.png": {
+      "bytes": 36700,
+      "sha256": "3550cea3373778953ccf21fa01e028260f887e339cbc7e5642d2c0194eb2a3e2"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/confusion_head_down.png": {
+      "bytes": 35788,
+      "sha256": "8a22dc02c3b7fe0d7d94c446f272b22ca0af0307393b58ebe9a600eb88ffed8a"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/confusion_initial_grip.png": {
+      "bytes": 45010,
+      "sha256": "8a23843246b46a02ea2b6c9cf6ba83d05eae56361e28e2a4079de7cfedf0ba5f"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/confusion_shoulder_tilt.png": {
+      "bytes": 36254,
+      "sha256": "62ed3a7312590ed9fd3147897606b5cd7ca57a661c61791384b19bc5f8be1761"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/expert_bow_error.png": {
+      "bytes": 15607,
+      "sha256": "ab3f08dc8fcfc3631d5138a44e8637296f949752db40294b019306c103fcd94a"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/expert_head_down.png": {
+      "bytes": 14525,
+      "sha256": "4df3e4fe27c520c80ce7d4ea3d9647725aca5ef066223bf3eed4e801b7692e43"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/expert_initial_grip.png": {
+      "bytes": 15676,
+      "sha256": "9e2a94f17bcb9b661a1b2dfd56261b3461d6d61648479087a29314509ae9c2ed"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/expert_shoulder_tilt.png": {
+      "bytes": 15374,
+      "sha256": "b685d5969e387c968fa705bbd8f7f471a172d9ea7d830a569c96f851c68c17e5"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/posture_joint_metrics.json": {
+      "bytes": 233,
+      "sha256": "dcbac93ffda72e989fc097139018d0c1639512456d7566b9c3fdb0814b7593f2"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/posture_joint_predictions.csv": {
+      "bytes": 59354,
+      "sha256": "ac4d4edfc61e5e73f9696526de34e036296db20c66cfa2f9a27e3c32e8edf376"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/results.json": {
+      "bytes": 15290,
+      "sha256": "b62b033680777e88a4ec9744b3d09ef601285357e68b9019a8b182c3b906bbe5"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/scores.png": {
+      "bytes": 46627,
+      "sha256": "28774f8d7f4a06fee97aa6bd27c9e1cd7414e282d915df3084d5623466408f51"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/summary_scores.csv": {
+      "bytes": 852,
+      "sha256": "0ec46f1efeec2d2ae9dc298bd356467711725f3db6c64d2ed3f0a46e4db0d755"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/val_test_comparison.png": {
+      "bytes": 21580,
+      "sha256": "f56ab78e33a7d9942cea8274c24b115498e011e417582caf96f39efa61659abc"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/bow_error_errors.csv": {
+      "bytes": 20957,
+      "sha256": "146b776efb55d921b41db97f2ac0bb70b940b5417620b60131d0dd49e4541bea"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/bow_error_metrics.json": {
+      "bytes": 3595,
+      "sha256": "40fbc3b1588a1fa26cebfac2cb2dd02dfd17b0fc68dcb43324ac26a09d28f191"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/bow_error_per_clip.csv": {
+      "bytes": 1030,
+      "sha256": "94fc1dd0c3d53f7048450fce887cf49841fa62297255e0022feb02bc5fb88cc5"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/bow_error_predictions.csv": {
+      "bytes": 49255,
+      "sha256": "eac3fa1b32d17ee6e92d0fee26b33d8a95f82a150b9ad3f0b72bfcf7e0cf5604"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/head_down_errors.csv": {
+      "bytes": 23138,
+      "sha256": "9403e4c883932ad0cc81d256df119e4b0dea02b0f64785d9c0ce38b2181939d0"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/head_down_metrics.json": {
+      "bytes": 3392,
+      "sha256": "986a6f45410915c7f336a3df2033281b11f8a30ce7b838f30a36a56eb161984a"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/head_down_per_clip.csv": {
+      "bytes": 676,
+      "sha256": "ac04d2812ebedeac20b6923f148bbbf7ba32229d755802c79e428a4cd96529ea"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/head_down_predictions.csv": {
+      "bytes": 146217,
+      "sha256": "3adc9e3310c8d6c26bf20013e3a8ba982ef02a436b6e3162e9e3c14a2d419e88"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/initial_grip_errors.csv": {
+      "bytes": 10029,
+      "sha256": "0533f4b5312ae4c9adc6047902477cbbc746e5bec7ebd290b0c4859a5057f878"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/initial_grip_metrics.json": {
+      "bytes": 3855,
+      "sha256": "ae79828deb021c25c144dddeaa1be736afb53e337f06973cfbf1b49de47ad263"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/initial_grip_per_clip.csv": {
+      "bytes": 903,
+      "sha256": "70c1f4241ca1ba0414e70e9cc66b006105b1d304d1523c9af1dccb6fe4e84d4e"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/initial_grip_predictions.csv": {
+      "bytes": 30937,
+      "sha256": "7ad3110ca98e3255966f4155b503f2f4f10d87b5616bb811971188dd97f0f6d9"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/shoulder_tilt_errors.csv": {
+      "bytes": 23576,
+      "sha256": "509edeea371655dcf1d5f7a85adb73dd073ed41aed3c342a7f0bb1965762bd67"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/shoulder_tilt_metrics.json": {
+      "bytes": 3378,
+      "sha256": "2c6a30bb9912eb29b9d07178d4dbe9bd2b62ebb1e13dd22095f5c760e5afcfaa"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/shoulder_tilt_per_clip.csv": {
+      "bytes": 677,
+      "sha256": "55466d3d9f9ba04533d67b19e5680fe0639887284207c2d0a6fb066c5d45c556"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/test/selected/shoulder_tilt_predictions.csv": {
+      "bytes": 147700,
+      "sha256": "ff17fbccb490cacd285a28e953c387254668046f1d08691ed4efd6b99473359b"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/all_errors.csv": {
+      "bytes": 45525,
+      "sha256": "bf49a26f15cef06fef83b683b7ee5f741cb7d97f867edc81a168cabd20c8b317"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/comparison.png": {
+      "bytes": 57740,
+      "sha256": "a57a6e7f0dcbda1798c3a61bf6c6c695d7ed15f0037cfef42dc68c25549faf98"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/confusion_bow_error.png": {
+      "bytes": 37330,
+      "sha256": "d70c7dfbe82fa651733a57e385243243832296bdf8fb8cdf9cc97178b5fe71d3"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/confusion_head_down.png": {
+      "bytes": 35608,
+      "sha256": "b9824c6025eb6976bef084b236daca7251763a5994b8061f9e518041177b1cb4"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/confusion_initial_grip.png": {
+      "bytes": 43687,
+      "sha256": "4d9c46ff38733ceb64f349096e91cfe7e3a3b29add70d2cdc684fe5a5999f87a"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/confusion_shoulder_tilt.png": {
+      "bytes": 36367,
+      "sha256": "93605c39d78437469dc07e62f4c1e660ab960598ca8a55320e62ca1237f4c1de"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/expert_bow_error.png": {
+      "bytes": 15502,
+      "sha256": "d95e1e270bcedd2133ebc1a4fdadd6cb2ddec2847e77ccced95990ef6c8358a5"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/expert_head_down.png": {
+      "bytes": 14573,
+      "sha256": "62375689a497101de7f08dc6c05f5252e3cf043c2e130bdc705b9689fe0eae8d"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/expert_initial_grip.png": {
+      "bytes": 15652,
+      "sha256": "144330d8ff8830c282c74c6a159486dfdf877efb5fcb5b61fb6879e5f856589a"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/expert_shoulder_tilt.png": {
+      "bytes": 15124,
+      "sha256": "3ddf8d837232ddd68806bff210e8047991396702ef559cc0f3165a255cfc3315"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/model_comparison.csv": {
+      "bytes": 1464,
+      "sha256": "55a7090134637a6398b9a354f2248f3d02c988d269fa8ff91d0163b2d3654018"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/posture_joint_metrics.json": {
+      "bytes": 233,
+      "sha256": "34bf63ab7ba19456dd3ffc2646bdeb91f40ccb304b34d5344418bfaecae90d7d"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/posture_joint_predictions.csv": {
+      "bytes": 57169,
+      "sha256": "afde840706d38ee193115c32058ad5a6f2f849e78dbd20c8fa9243bdd46639f5"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/results.json": {
+      "bytes": 15186,
+      "sha256": "f72d7c105b6d3fe145b6e979f1b1601c9075e8b5dacbe48c60b6f48932537f91"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/scores.png": {
+      "bytes": 45850,
+      "sha256": "3c5a7c30602686c238c554e5c0f8aa777195a060fc39e8a1cc505f1c3c6f6dcd"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/summary_scores.csv": {
+      "bytes": 853,
+      "sha256": "2a50e209ea6c7823a87f76f77e25e4c2c6dc7c0d24acb317947267a2b17909b2"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/bow_error_errors.csv": {
+      "bytes": 17007,
+      "sha256": "64daa5da4ac37bd970512e58430f64d4a3d16a4acb6ef8f640da0f3d826fff04"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/bow_error_metrics.json": {
+      "bytes": 3563,
+      "sha256": "82571586284ed2a8d44efa60b69ebe1ce2f31ba5c772accd46914e5ddaaa867c"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/bow_error_per_clip.csv": {
+      "bytes": 1011,
+      "sha256": "dc4ab8a140fb1c448cfc3fca001a1433429f971eb94c198b9247707558b6ec23"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/bow_error_predictions.csv": {
+      "bytes": 46338,
+      "sha256": "22d5e44b036a218b9dc8d96252759b23bd13c9bfce6518a6c6401c0069c93b38"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/head_down_errors.csv": {
+      "bytes": 45907,
+      "sha256": "5ecce72a00902e7b5bfa7707e42890dbfc50fd45a0891dabff89cedf62daeaad"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/head_down_metrics.json": {
+      "bytes": 3377,
+      "sha256": "5227362fd87a12730a97e24cd762d7d081d17ce404878379167c4da705a20504"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/head_down_per_clip.csv": {
+      "bytes": 722,
+      "sha256": "5700fc77a4bc7c2bb196d9d0106cc1fae46a8339dec26cb67995638df0ab13e9"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/head_down_predictions.csv": {
+      "bytes": 140026,
+      "sha256": "c94eea7d786e3a21df4cc85e807d49333a040c32e23c8da2a9b6fcfeb64f5a9e"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/initial_grip_errors.csv": {
+      "bytes": 9216,
+      "sha256": "5c559cb33243f9b452f89d1b56f9bc333e8e01ce6cd47f3686fc736926f47d5a"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/initial_grip_metrics.json": {
+      "bytes": 3824,
+      "sha256": "0e250c9d9ff46b698e37e8f74415517d11cfdbd36021931f53d9a44217900e94"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/initial_grip_per_clip.csv": {
+      "bytes": 985,
+      "sha256": "6834d4790b10234234b74c633703c7f83c1368a2bddb15c66168019756de27fd"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/initial_grip_predictions.csv": {
+      "bytes": 28856,
+      "sha256": "14af8fe16bb12fca2d1fd2cf077d5a71973824e0aa8567342787fd803a87b7fe"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/shoulder_tilt_errors.csv": {
+      "bytes": 33643,
+      "sha256": "54c1d14977921e0007c3450fbf872e02d045f746bb244afe8d56be2b8736e521"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/shoulder_tilt_metrics.json": {
+      "bytes": 3383,
+      "sha256": "ef28a7002618d09e27311f81390daf33810280fd7cd5716bc8406183cda95ad4"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/shoulder_tilt_per_clip.csv": {
+      "bytes": 750,
+      "sha256": "423da664ea276f063d669e5df3b35d4e2708f9326e5d27ba3bc15917633143f0"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/decision_tree/shoulder_tilt_predictions.csv": {
+      "bytes": 141983,
+      "sha256": "6bb9820fbd1848b0d2cba81d3c767a926bf37b34bb8533cdd79c61dc23764a51"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/bow_error_errors.csv": {
+      "bytes": 17954,
+      "sha256": "3cb07dfcac981e0fd29b8b6cf8049ca3e693d3ea76a0579e821edf3e296a1f65"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/bow_error_metrics.json": {
+      "bytes": 3560,
+      "sha256": "1ea0f7e3510f8ad25f59a0028a863af69e4b061848ed554b8400c9e58ced6155"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/bow_error_per_clip.csv": {
+      "bytes": 1008,
+      "sha256": "2de810db6bf7d06d6d36a32f88b92d5476a65079285605104ebe30020a2dab16"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/bow_error_predictions.csv": {
+      "bytes": 46330,
+      "sha256": "30bd2575270c2a12a9f55e7f2ed24f5a3cadeddafa2b5d3afdf6327dd6502469"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/head_down_errors.csv": {
+      "bytes": 42763,
+      "sha256": "c4010687d6aeca6986c6665e999bd14001bf438ce4dde9db69eb11e86e0bbb62"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/head_down_metrics.json": {
+      "bytes": 3377,
+      "sha256": "f159a1e0e894d4b89cf723f409ee608323a950e0c1cab24088eb63dc0ea40a36"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/head_down_per_clip.csv": {
+      "bytes": 722,
+      "sha256": "bb1faaca8a33c5b2081507268647616ef3b39668f6359ff51dfe86d0071de384"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/head_down_predictions.csv": {
+      "bytes": 141441,
+      "sha256": "6db89a44d23e448b914881d92e884f15fda0054746f2f65f5683d93117ab2850"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/initial_grip_errors.csv": {
+      "bytes": 9215,
+      "sha256": "d9d2b68c404971f01f938ca929e30271b494d5a78c87b9671bd2ebba45e31908"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/initial_grip_metrics.json": {
+      "bytes": 3824,
+      "sha256": "dd601e6c7b449bb8aca20e7b5b34761e0263fe310200b67f4d475b4e821ca869"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/initial_grip_per_clip.csv": {
+      "bytes": 985,
+      "sha256": "6834d4790b10234234b74c633703c7f83c1368a2bddb15c66168019756de27fd"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/initial_grip_predictions.csv": {
+      "bytes": 28849,
+      "sha256": "fca1edf1011c2ad0a11e82c7488e3670f83720d43d45c0bcf4305606cd81e1bc"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/shoulder_tilt_errors.csv": {
+      "bytes": 24184,
+      "sha256": "ee58b17427ed53fc0b3bbcccfa1b57ca7278658460dbe71488a877e06dbfab13"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/shoulder_tilt_metrics.json": {
+      "bytes": 3380,
+      "sha256": "289029fef4e03cf6e359acd9b10f7b66e949baa8e23f78c242e3f983d95ad5d8"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/shoulder_tilt_per_clip.csv": {
+      "bytes": 735,
+      "sha256": "99d0980e1d45afb303f5a0965c9a6d2850a74fa022e84d264011f69ca642c6f6"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/random_forest/shoulder_tilt_predictions.csv": {
+      "bytes": 142285,
+      "sha256": "422e41d80907fa7d59688be7b3863b26b5c4655aea3a1a593bc876134b9ff6fa"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/bow_error_errors.csv": {
+      "bytes": 17007,
+      "sha256": "64daa5da4ac37bd970512e58430f64d4a3d16a4acb6ef8f640da0f3d826fff04"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/bow_error_metrics.json": {
+      "bytes": 3558,
+      "sha256": "17d384709fb0a6a15b9d7d982e7b0334c0f60072eb313c131f67173bf1594057"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/bow_error_per_clip.csv": {
+      "bytes": 1011,
+      "sha256": "dc4ab8a140fb1c448cfc3fca001a1433429f971eb94c198b9247707558b6ec23"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/bow_error_predictions.csv": {
+      "bytes": 46338,
+      "sha256": "22d5e44b036a218b9dc8d96252759b23bd13c9bfce6518a6c6401c0069c93b38"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/head_down_errors.csv": {
+      "bytes": 42762,
+      "sha256": "f636855ad50c37700ba1074c220737bc29c78512df788c9553d430aac2802dbc"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/head_down_metrics.json": {
+      "bytes": 3372,
+      "sha256": "7a0b7f8f0c4204137d7d3057441a33beacdd5a5e1a5eca8a57b6619e0a2fdec5"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/head_down_per_clip.csv": {
+      "bytes": 722,
+      "sha256": "bb1faaca8a33c5b2081507268647616ef3b39668f6359ff51dfe86d0071de384"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/head_down_predictions.csv": {
+      "bytes": 141439,
+      "sha256": "f4a87f8f07b33ceb9c44e16b2fed008729f194750eb7b3739581b220f2a8417f"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/initial_grip_errors.csv": {
+      "bytes": 9215,
+      "sha256": "2123abd4f2667ad26bdee9e86f758f8f4b1ab0bb9eb52c618ad74dce0ac0da56"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/initial_grip_metrics.json": {
+      "bytes": 3819,
+      "sha256": "4d072c4ea12d1251cbf618759a501b8a22a5cbe3bdc921b0da621f15ebd1b1a4"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/initial_grip_per_clip.csv": {
+      "bytes": 985,
+      "sha256": "6834d4790b10234234b74c633703c7f83c1368a2bddb15c66168019756de27fd"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/initial_grip_predictions.csv": {
+      "bytes": 28850,
+      "sha256": "19ec78b40b4430260584c99feb9a2344f51bbbb09944b79f6a4996ffaf6269e4"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/shoulder_tilt_errors.csv": {
+      "bytes": 24184,
+      "sha256": "1361e83b4d7c0703fca5bd59fb5acc88978a34f8d2b02c3e8e77dd1e37fdb443"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/shoulder_tilt_metrics.json": {
+      "bytes": 3375,
+      "sha256": "365ab76582547d8d3fa852c91c6a1a7259d23418973fcb0cdd82af601423ea9d"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/shoulder_tilt_per_clip.csv": {
+      "bytes": 735,
+      "sha256": "99d0980e1d45afb303f5a0965c9a6d2850a74fa022e84d264011f69ca642c6f6"
+    },
+    "training/reports/combined_experts_20261007_211339_512861/val/selected/shoulder_tilt_predictions.csv": {
+      "bytes": 142278,
+      "sha256": "38119b2bac60a21bdc068ff9248ef39f0eb68be8a2d3ba22654516819e074440"
+    },
+    "training/src/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "training/src/data/posture_features.py": {
+      "bytes": 2994,
+      "sha256": "1c5bc02ad995e665a0de6269effed1b06dd5e9a748c84b9afa00d91a2c9db2a4"
+    },
+    "training/src/data/torso_hand_proxy.py": {
+      "bytes": 3276,
+      "sha256": "7e9fed1681dba395c655fa340fa4317b186ca4106bdf7521e4ec69a108950222"
+    },
+    "training/src/data/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "training/src/models/initial_grip.py": {
+      "bytes": 2593,
+      "sha256": "e70915b4b253e5339ecf8fa59259682170ca40d662c71754c968838ba3ce5b5e"
+    },
+    "training/src/models/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "training/src/training/build_combined_notebooks.py": {
+      "bytes": 50669,
+      "sha256": "f0b7f711bd8cc7cb4b57909a2e20415ee7332c04b2b0814a9e48ef166678c3a5"
+    },
+    "training/src/training/combined_experts.py": {
+      "bytes": 24697,
+      "sha256": "a8122b20afd803a30b3a3df136371b37e79d549d53f5310da874a913231278bb"
+    },
+    "training/src/training/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "web_app/index.html": {
+      "bytes": 671,
+      "sha256": "ec7ee9834d4408de6b703f4c4eed669a66ea25e173b9fd035d17a0a6917de6c0"
+    },
+    "web_app/package-lock.json": {
+      "bytes": 38563,
+      "sha256": "792848ca158651ad16ee1fd4e98eb8cb6cbf8e4156d2c15cb06dddd7f94942ec"
+    },
+    "web_app/package.json": {
+      "bytes": 520,
+      "sha256": "c5483d2926d44671d5140415fc9b5b14558b9ac9ba97717ddb6f90111284b5a8"
+    },
+    "web_app/start-ipad.ps1": {
+      "bytes": 591,
+      "sha256": "2aa50735fc29d92654d01179c6e49374f8d7bdbd3d762f90f69608579d1f5a51"
+    },
+    "web_app/start.ps1": {
+      "bytes": 414,
+      "sha256": "5d629a1a18862e39783bede735410812d5ec5f4a7fb2c2a1b3046872f6e75f27"
+    },
+    "web_app/vite.config.js": {
+      "bytes": 161,
+      "sha256": "2f8cf9330cb9cacb924ab35df926c6c1e00fc29a059b9767180156017cb6f120"
+    },
+    "web_app/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "web_app/backend/app.py": {
+      "bytes": 4745,
+      "sha256": "d27aab87ae92d346a2f5edd729339d37745fdfbdb73b6d7c898ffbcbe4309fd6"
+    },
+    "web_app/backend/combined_model.json": {
+      "bytes": 558,
+      "sha256": "fe4544bc6cf4230b9d0104930754a471eaf8e1f32c2ea7814c3d09d8b35bbb05"
+    },
+    "web_app/backend/combined_models.py": {
+      "bytes": 3151,
+      "sha256": "92c8969fc954fbf55aec32c7c3ff3827c4840be975a08a385c0c6fd46b3196ed"
+    },
+    "web_app/backend/examples.json": {
+      "bytes": 1046,
+      "sha256": "8a3deeb7a2cfa99ea9c36cc7fbc4a60ee3be3f26d253637a2dd667037057d658"
+    },
+    "web_app/backend/inference.py": {
+      "bytes": 12940,
+      "sha256": "066b4bb7baffdec66c28279df8d5cdc2f2ca906dfdf168d06706079977ad8d26"
+    },
+    "web_app/backend/local_https.py": {
+      "bytes": 12285,
+      "sha256": "9e179f398046c71d166c58d3d9c3ab40d66be03c809133fd5b3ae8731d7a427c"
+    },
+    "web_app/backend/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "web_app/dist/favicon.svg": {
+      "bytes": 309,
+      "sha256": "28dcda1e412028198e3f2ec2ad67b62ad55b0b60b05fe7f8fc09cc8aada3692b"
+    },
+    "web_app/dist/index.html": {
+      "bytes": 770,
+      "sha256": "719347f679bf8db1b95a26a84b27c2b97d7efe044cc3c7b6734e4ce510cbd20d"
+    },
+    "web_app/dist/assets/hls-fKiPGt_L.js": {
+      "bytes": 592559,
+      "sha256": "6b4baffabedbc882577d7f69ecc7241c9f44c65ee9275c5d211bcdde90a2e0da"
+    },
+    "web_app/dist/assets/index-C5ZNYFCu.css": {
+      "bytes": 53568,
+      "sha256": "a6fcf1c26ab34eec657c049271fa1d38a79a70614a52ba7532e5db3074562c87"
+    },
+    "web_app/dist/assets/index-Q90YOsYc.js": {
+      "bytes": 305348,
+      "sha256": "53fa75ba6c9797c47cb971426e1818e04a98eb804e606fe2a9568ff9939d541e"
+    },
+    "web_app/dist/assets/inter-cyrillic-500-normal-BasfLYem.woff2": {
+      "bytes": 7900,
+      "sha256": "b77a86ec16aadc157f4a99e8898d71cd75ea264753d9bdf13f962f8c3988cbb0"
+    },
+    "web_app/dist/assets/inter-cyrillic-500-normal-CxZf_p3X.woff": {
+      "bytes": 9940,
+      "sha256": "5be18e0345781cb882a267798518553c0e915174fc70731ab5f085ca64ba1ebc"
+    },
+    "web_app/dist/assets/inter-cyrillic-ext-500-normal-B0yAr1jD.woff2": {
+      "bytes": 10432,
+      "sha256": "1c2db92d3cd9b237ca7c9c07af556d542f28ded1db54cd4382cf776501c5291f"
+    },
+    "web_app/dist/assets/inter-cyrillic-ext-500-normal-BmqWE9Dz.woff": {
+      "bytes": 13452,
+      "sha256": "e250c05aebcf49971e0b25f476992dd463c28c0292ebb204d9db542fb5066ca7"
+    },
+    "web_app/dist/assets/inter-greek-500-normal-BIZE56-Y.woff2": {
+      "bytes": 7920,
+      "sha256": "cc197d79d33a3615a047baae85f4d1957f6f98b8898313658e160b1d519b1b6f"
+    },
+    "web_app/dist/assets/inter-greek-500-normal-Xzm54t5V.woff": {
+      "bytes": 9980,
+      "sha256": "86d55a4b1b9cbced7e61e76d5d44cf49d0bd1c814d3df2de67b7136ab4fdcece"
+    },
+    "web_app/dist/assets/inter-greek-ext-500-normal-2j5mBUwD.woff": {
+      "bytes": 7192,
+      "sha256": "c85d11bde719108cc9a4f6f5b008087f6c36493b47395580d4f5336182b0f0c7"
+    },
+    "web_app/dist/assets/inter-greek-ext-500-normal-C4iEst2y.woff2": {
+      "bytes": 5428,
+      "sha256": "75a9ec9383a3b7a7bf7cfb94f64edf38d9cfdc5f7ffa0cbed2733627a6e4426d"
+    },
+    "web_app/dist/assets/inter-latin-500-normal-BL9OpVg8.woff": {
+      "bytes": 31284,
+      "sha256": "9b42c108da48b5ed55a3072e815ffee2d271562e6c0dd6998910e8f9c09e0a3d"
+    },
+    "web_app/dist/assets/inter-latin-500-normal-Cerq10X2.woff2": {
+      "bytes": 24272,
+      "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+    },
+    "web_app/dist/assets/inter-latin-ext-500-normal-BxGbmqWO.woff": {
+      "bytes": 48492,
+      "sha256": "30d2903ce97f8a89ea0e9c083b42cb8bf97e7bbb5607e7f00352815f19cb0d5b"
+    },
+    "web_app/dist/assets/inter-latin-ext-500-normal-CV4jyFjo.woff2": {
+      "bytes": 36024,
+      "sha256": "2c6fbc42d315528beb06c1096df45487bf4186c4b78b8111d12c9c951f8acca2"
+    },
+    "web_app/dist/assets/inter-vietnamese-500-normal-DOriooB6.woff2": {
+      "bytes": 5112,
+      "sha256": "44e36aa5a8f12130029a29bb0e6695d0262b67446ce321e878b1fb56162b5de6"
+    },
+    "web_app/dist/assets/inter-vietnamese-500-normal-mJboJaSs.woff": {
+      "bytes": 6596,
+      "sha256": "18a4a09f751671cd8929d7c66e8fe7d820b511c36e51cf6047ffceab88eec4a4"
+    },
+    "web_app/dist/assets/noto-sans-thai-latin-400-normal-BaWBrqFP.woff2": {
+      "bytes": 10268,
+      "sha256": "fde3c93cfbfd8c97286fac1cca1c89912eb61857dd3996d26b7c0eaf16715bb6"
+    },
+    "web_app/dist/assets/noto-sans-thai-latin-400-normal-Dh_FJjOB.woff": {
+      "bytes": 13140,
+      "sha256": "85016d5c37b7fba18ef68c595443e47997a98cd1c2ea399bda9dfec723c3ad09"
+    },
+    "web_app/dist/assets/noto-sans-thai-latin-500-normal-BC04jsmm.woff": {
+      "bytes": 13184,
+      "sha256": "92c4cba7b72a02664bd25f2f010431346fa816a4e434183fdb0e01f79f2e0051"
+    },
+    "web_app/dist/assets/noto-sans-thai-latin-500-normal-fyBKClF1.woff2": {
+      "bytes": 10356,
+      "sha256": "48a30aec87f1260fd291e1cc3cbc2fd191098eec913f583b8d77cb79b0e1edce"
+    },
+    "web_app/dist/assets/noto-sans-thai-latin-600-normal-CemcjnVR.woff2": {
+      "bytes": 10304,
+      "sha256": "351530d6156ff829f957f2085a55f5ea45c4d07e3504625b1e7db0b239c25e3a"
+    },
+    "web_app/dist/assets/noto-sans-thai-latin-600-normal-Dbc-dNO6.woff": {
+      "bytes": 13148,
+      "sha256": "9211a24c1abf883351f193612fb9a29574e3324ce1070ebd54b57aae01dd50d7"
+    },
+    "web_app/dist/assets/noto-sans-thai-latin-ext-400-normal-B-1H0YkH.woff": {
+      "bytes": 7928,
+      "sha256": "33c2ae38977aba30c9a7531ac5e288a344333015a5b0891422da657c631bac95"
+    },
+    "web_app/dist/assets/noto-sans-thai-latin-ext-400-normal-nBP59pVw.woff2": {
+      "bytes": 6084,
+      "sha256": "c4c5134dd6335447b84e9e07aa27e37f992392ad431de986a18f2b93bbd7f236"
+    },
+    "web_app/dist/assets/noto-sans-thai-latin-ext-500-normal-B-ZWb8SZ.woff2": {
+      "bytes": 6108,
+      "sha256": "7f6ea1c9c6ec61ce23cbf5e4ad6b884fbc1035b001ab4e4054cce15bd4a4b06a"
+    },
+    "web_app/dist/assets/noto-sans-thai-latin-ext-500-normal-CrEHO7C8.woff": {
+      "bytes": 7960,
+      "sha256": "1c967f1238f6eff7a80d51adbe9cf6633efb733db2e0b2facb357b245da0b15c"
+    },
+    "web_app/dist/assets/noto-sans-thai-latin-ext-600-normal-maHHBsez.woff2": {
+      "bytes": 6100,
+      "sha256": "b0e06825e76094dfeadd98794fe0d8d1be127303fcb11e450391ee5a93c14b3c"
+    },
+    "web_app/dist/assets/noto-sans-thai-latin-ext-600-normal-PkMZo0xa.woff": {
+      "bytes": 7972,
+      "sha256": "55bec2ae61a0bd2a9a5a0bc8a7a503b172b3cbc844e3053f22b4c467592981f3"
+    },
+    "web_app/dist/assets/noto-sans-thai-thai-400-normal-BEOmKAI1.woff2": {
+      "bytes": 9112,
+      "sha256": "57776453076ebf0fa935080e63c0ae656f1f1ecd5172112d59d3b259e0dd8796"
+    },
+    "web_app/dist/assets/noto-sans-thai-thai-400-normal-Dxb_unuU.woff": {
+      "bytes": 11316,
+      "sha256": "e601a5a91e1b567fb0648ff598923aea68502b048d9e8ee995033f12a373eb09"
+    },
+    "web_app/dist/assets/noto-sans-thai-thai-500-normal-BOGXO2tw.woff": {
+      "bytes": 11460,
+      "sha256": "9a2e70dcd30e9f8a9880ea8a53e851a79dcdb17d689612bd1a4796963653fdec"
+    },
+    "web_app/dist/assets/noto-sans-thai-thai-500-normal-CU_X86GQ.woff2": {
+      "bytes": 9224,
+      "sha256": "36aac83971765332c5d79f98bba123a4ed07aacd5f90c4634eecba7d46264014"
+    },
+    "web_app/dist/assets/noto-sans-thai-thai-600-normal-CmgB8_JK.woff": {
+      "bytes": 11444,
+      "sha256": "d99e288d30c029897e78e737f4ecc0734147c71893af2d8b645e9c1e9d4b68e3"
+    },
+    "web_app/dist/assets/noto-sans-thai-thai-600-normal-Cs73sVjl.woff2": {
+      "bytes": 9220,
+      "sha256": "8690b63cc8c7090492cce68f57a421be92fee4f682dff7ee06912132ebd2a8fc"
+    },
+    "web_app/dist/assets/noto-serif-thai-latin-500-normal-D2qQp2Bb.woff": {
+      "bytes": 15252,
+      "sha256": "b326020cef14489215cf073e2265edf22778c16a35b0a8319684f11b5eea9a5a"
+    },
+    "web_app/dist/assets/noto-serif-thai-latin-500-normal-DiljKC-A.woff2": {
+      "bytes": 12316,
+      "sha256": "74f7fa67ac09f9c44529255c4583a93819e2d1331030badb9e90d5c573de5f6f"
+    },
+    "web_app/dist/assets/noto-serif-thai-latin-600-normal-B_GHqjz6.woff": {
+      "bytes": 15324,
+      "sha256": "8f7bd94eb06de1b536e418c68060a16c50fa2a7b467581396584effe30882aa4"
+    },
+    "web_app/dist/assets/noto-serif-thai-latin-600-normal-DrhQiPUG.woff2": {
+      "bytes": 12428,
+      "sha256": "75efcf329e0cfc92a86b8ef05ed2532da101c9fe7aabc916c918c27f1b59781d"
+    },
+    "web_app/dist/assets/noto-serif-thai-latin-ext-500-normal-BMiZmQRz.woff": {
+      "bytes": 9220,
+      "sha256": "06888ce75be33e2f16cee44472cf908d2950518fea86fbaf30315d5f722b37de"
+    },
+    "web_app/dist/assets/noto-serif-thai-latin-ext-500-normal-Dtcfj3n3.woff2": {
+      "bytes": 7300,
+      "sha256": "156d805bb966db73e068877b5765ba678a98e89c9c02385a10255b26025e59fd"
+    },
+    "web_app/dist/assets/noto-serif-thai-latin-ext-600-normal-Bn5dVPRl.woff": {
+      "bytes": 9196,
+      "sha256": "7e67b63dc44ff2b58096143a545b35ff9bb1391c34cd2b63e79b427e9213f2c8"
+    },
+    "web_app/dist/assets/noto-serif-thai-latin-ext-600-normal-CCPw-m5N.woff2": {
+      "bytes": 7300,
+      "sha256": "b6fb8d38e02b7665b8a9835345b3af9de5df79e749387f59260c1aa9c658f62f"
+    },
+    "web_app/dist/assets/noto-serif-thai-thai-500-normal-BhdBeid2.woff": {
+      "bytes": 13292,
+      "sha256": "fcff7796c9e57c797fc8cabfd340da17d5f9b42ec6164726dc61dfdb6e676477"
+    },
+    "web_app/dist/assets/noto-serif-thai-thai-500-normal-C6yhuT-e.woff2": {
+      "bytes": 10560,
+      "sha256": "d8dbaef7cdcc53d08e08d7bf764f6d383d8465dbb49b7f2302e7ee4dcc2a2a4f"
+    },
+    "web_app/dist/assets/noto-serif-thai-thai-600-normal-Bi2iA5nV.woff": {
+      "bytes": 13392,
+      "sha256": "1c6d68a4facc23adef3701817996d0d220cfcad0ec15d3aab5a110fd8e6ac201"
+    },
+    "web_app/dist/assets/noto-serif-thai-thai-600-normal-BPIYqBcd.woff2": {
+      "bytes": 10708,
+      "sha256": "11b1a24d1b66cb161e1593513d116d6cebe1373478e30b0d8892153f8502553f"
+    },
+    "web_app/dist/examples/angle.jpg": {
+      "bytes": 234407,
+      "sha256": "b037d1d24c5ee2a2207829972b2891c2d42c03ebf2dfc1c271cdd29ee4aea115"
+    },
+    "web_app/dist/examples/head.jpg": {
+      "bytes": 235800,
+      "sha256": "650fd183f17775c05547f3153e2bf3079fd63a47ea07a3cdbe25136755cfc9e5"
+    },
+    "web_app/dist/examples/high.jpg": {
+      "bytes": 227954,
+      "sha256": "9aa110ee8268750a2dfa586d5ab836db865c46e5fb5bd9e060615d1b2d8f0e15"
+    },
+    "web_app/dist/examples/low.jpg": {
+      "bytes": 231681,
+      "sha256": "4f8bbbc634d15418a00f2be1be1cbc6e507abe146ae5e23b69bea96e1656eceb"
+    },
+    "web_app/dist/examples/posture.jpg": {
+      "bytes": 237214,
+      "sha256": "aa8f20d5f07a811e3e87a72b871bb1f8c6516e117ae215edd107fcdc2c6753d3"
+    },
+    "web_app/dist/examples/shoulder.jpg": {
+      "bytes": 240473,
+      "sha256": "255b117f1faea61d13679e489f541ad441486cba9b476886f61895b2288e7956"
+    },
+    "web_app/public/favicon.svg": {
+      "bytes": 309,
+      "sha256": "28dcda1e412028198e3f2ec2ad67b62ad55b0b60b05fe7f8fc09cc8aada3692b"
+    },
+    "web_app/public/examples/angle.jpg": {
+      "bytes": 234407,
+      "sha256": "b037d1d24c5ee2a2207829972b2891c2d42c03ebf2dfc1c271cdd29ee4aea115"
+    },
+    "web_app/public/examples/head.jpg": {
+      "bytes": 235800,
+      "sha256": "650fd183f17775c05547f3153e2bf3079fd63a47ea07a3cdbe25136755cfc9e5"
+    },
+    "web_app/public/examples/high.jpg": {
+      "bytes": 227954,
+      "sha256": "9aa110ee8268750a2dfa586d5ab836db865c46e5fb5bd9e060615d1b2d8f0e15"
+    },
+    "web_app/public/examples/low.jpg": {
+      "bytes": 231681,
+      "sha256": "4f8bbbc634d15418a00f2be1be1cbc6e507abe146ae5e23b69bea96e1656eceb"
+    },
+    "web_app/public/examples/posture.jpg": {
+      "bytes": 237214,
+      "sha256": "aa8f20d5f07a811e3e87a72b871bb1f8c6516e117ae215edd107fcdc2c6753d3"
+    },
+    "web_app/public/examples/shoulder.jpg": {
+      "bytes": 240473,
+      "sha256": "255b117f1faea61d13679e489f541ad441486cba9b476886f61895b2288e7956"
+    },
+    "web_app/src/BodyGripOverlay.jsx": {
+      "bytes": 1629,
+      "sha256": "1f2eb43d97a7a095ea6502cf185704dc81ad5f78c655eec400cded987255b2af"
+    },
+    "web_app/src/bodyOverlay.js": {
+      "bytes": 1624,
+      "sha256": "a42a1934274be786da777576ea63ef046f8e44ee6849e8ad179913c036affda9"
+    },
+    "web_app/src/bowModel.js": {
+      "bytes": 1315,
+      "sha256": "77b88e78d6d956fdff3d3bb7b7cff384394f4d47519a81654fc6438ca3efee4d"
+    },
+    "web_app/src/CombinedModels.jsx": {
+      "bytes": 5403,
+      "sha256": "34a168c9e667db02748d31636f6ef1aab4f303c60f5533120d0d914d3f41e32f"
+    },
+    "web_app/src/guidedPractice.js": {
+      "bytes": 6331,
+      "sha256": "c48fbd89961515841a25731119653a15d16b53a9f242f68d994efd3a1f5daca8"
+    },
+    "web_app/src/initialGrip.js": {
+      "bytes": 3969,
+      "sha256": "bd6622474442ed08453cffcaa5bf65dc4cfe77fa9e661fb61eaa9e1465daf1fd"
+    },
+    "web_app/src/LessonVideo.jsx": {
+      "bytes": 2349,
+      "sha256": "647a6a26fc8bb10f341f8323e75a1862126ed4ab94cad5ef7258806cedb1d6bd"
+    },
+    "web_app/src/main.jsx": {
+      "bytes": 50033,
+      "sha256": "8bafe48514c9cb96a50ce2e48ac27c57cd21f7fe869df92b625dcff7d1156c12"
+    },
+    "web_app/src/microphone.js": {
+      "bytes": 1599,
+      "sha256": "3f97c5c73cce040db5787cf11a0d73bf6307a3840ce43a7e939f261a6206a805"
+    },
+    "web_app/src/pitch.js": {
+      "bytes": 3761,
+      "sha256": "c444dd0927e13b523c7c31912ec21686822831080764df7e890808915adea092"
+    },
+    "web_app/src/PitchTuner.jsx": {
+      "bytes": 9785,
+      "sha256": "dfee808ca51783d9119297bcc698c305111c84454c9f392eb78f3938415090be"
+    },
+    "web_app/src/practice.js": {
+      "bytes": 2576,
+      "sha256": "a4eb07998f6a5d32681ddbec40f549103a2c508b8d71e41fb4db500d1121df95"
+    },
+    "web_app/src/PracticeGuide.jsx": {
+      "bytes": 4230,
+      "sha256": "30385344eac36ca4021b046396cbc69eeafb5e37e6a81a472f19bbbe4ed12325"
+    },
+    "web_app/src/style.css": {
+      "bytes": 46189,
+      "sha256": "ba8050290278a0df3ea4aae00b678ecf2d7325dfd9a146a754f5a8d6158401ce"
+    },
+    "web_app/tests/bodyOverlay.test.js": {
+      "bytes": 1719,
+      "sha256": "3fc521f8735fe886f9d6cd2f7c73206af98c116136d666e9d610e5da57b75569"
+    },
+    "web_app/tests/bowModel.test.js": {
+      "bytes": 1219,
+      "sha256": "cf0847318bcda426fd2820f20f11ffe163b8c8e1fae5b0fc7552ab7f4bc97a5a"
+    },
+    "web_app/tests/guidedPractice.test.js": {
+      "bytes": 2828,
+      "sha256": "b237be284ef3fc1e6fa8ad230e027e8959bdfe09f7930c7b0448ef2d442ab475"
+    },
+    "web_app/tests/initialGrip.test.js": {
+      "bytes": 2360,
+      "sha256": "b7967dc2d8a905e9cd667bfa4bdb4107216720869a45017d18413af0bd5b8eee"
+    },
+    "web_app/tests/microphone.test.js": {
+      "bytes": 1419,
+      "sha256": "83b2405e461dea7ff553b0adcd1e3b5b29f8fe67a628bdc4ed3edb41e495796a"
+    },
+    "web_app/tests/pitch.test.js": {
+      "bytes": 3121,
+      "sha256": "d1d0391fe1a8b2b3eac026a596e0af80fb1bc6213f1a4a4ebccdc93e450e564c"
+    },
+    "web_app/tests/practice.test.js": {
+      "bytes": 2256,
+      "sha256": "851dd0cb49131b7626d1a8bf9f0a4f3507e2281285c44043b5fc78c451fd9752"
+    }
+  }
+}

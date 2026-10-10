@@ -1,0 +1,22 @@
+{
+  "dataset_sha256": "1bee7fa0034391ed2d290437976f547b1f36d7ec2a8699d086e3a10ff80d7e29",
+  "source_review_sha256": "779dc81653fbe3d46a7b07cda6e1075c9e1bda5f8f9fc5e50f0353af776969e1",
+  "canonical_review_sha256": "4a1441c10a7829d2c4e7b2387f4de0026e8014b429dcc54e0cc837f90a98e07f",
+  "all_64_clips_reviewed": true,
+  "pending_required_reviews": 0,
+  "fixed_split_and_video_hashes_verified": true,
+  "ready_csv_hashes_verified": true,
+  "finite_features_verified": true,
+  "unique_frames_per_task_verified": true,
+  "per_clip_weights_verified": true,
+  "all_classes_present_in_each_split": true,
+  "active_model_hashes_unchanged": true,
+  "data_ready": true,
+  "model_trained": false,
+  "excluded_grip_clips": [
+    {
+      "clip_id": "expert_01/playing_posture/E01_PP_back_hunched_S01_T05.mp4.mp4",
+      "reason": "ไม่มี"
+    }
+  ]
+}

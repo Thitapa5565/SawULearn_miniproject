@@ -1,0 +1,15 @@
+{
+  "run": "combined_experts_20261007_211339_512861",
+  "training_complete": true,
+  "validation_complete": true,
+  "test_complete": true,
+  "deployed": false,
+  "notebook_sha256": {
+    "notebooks\\15_combined_experts\\01_train_combined_experts.ipynb": "7e3216687765bea6dc3ed6e2459f647bb246d755913a10f1f6736582875f548a",
+    "notebooks\\15_combined_experts\\02_validation_results.ipynb": "97f10e19ee00122221bed3efbc7b7b25fbab6b70fcc9bafa96f20f772770ea62",
+    "notebooks\\15_combined_experts\\03_test_results.ipynb": "8556f80f9d952a092f7e3c9545f21840088d2805f3af3615061b00e747271bb5"
+  },
+  "web_unchanged": true,
+  "analysis_source_sha256": "4fa596ffaea66a35fa26fc3473b319b83be648eb72a742947b7ceed1b3fd9cf9",
+  "evaluation_builder_sha256": "de6cf34035ec740316459cc1fdff37798acace7cf1cb6fd0de558b5a8ec89c8c"
+}

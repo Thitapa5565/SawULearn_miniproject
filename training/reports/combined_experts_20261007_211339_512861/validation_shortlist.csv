@@ -1,0 +1,9 @@
+﻿task,family,features,parameters,weight_mode,train_f1,cv_f1,val_f1,selected
+head_down,decision_tree,posture_10,"{""max_depth"": 6, ""min_samples_leaf"": 2}",clip_class_balanced,0.9755606730028967,0.7995302406746563,0.6687383181390705,False
+head_down,random_forest,posture_10,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 2, ""n_estimators"": 150}",clip_class_balanced,0.9907808256475805,0.7861741252998561,0.7071553532422666,True
+shoulder_tilt,decision_tree,posture_10,"{""max_depth"": 2, ""min_samples_leaf"": 10}",clip_class_balanced,0.8884161452108823,0.8198533950573346,0.6542255451008274,False
+shoulder_tilt,random_forest,posture_10,"{""max_depth"": 3, ""max_features"": 1.0, ""min_samples_leaf"": 2, ""n_estimators"": 150}",clip_class_balanced,0.9059149179764934,0.7867401092600117,0.7493691147825906,True
+initial_grip,decision_tree,body_2,"{""max_depth"": 2, ""min_samples_leaf"": 10}",clip_equal,0.8605764602467566,0.7830747953153292,0.7319766484734128,False
+initial_grip,random_forest,body_2,"{""max_depth"": 6, ""max_features"": 1.0, ""min_samples_leaf"": 5, ""n_estimators"": 150}",clip_class_balanced,0.878152925499882,0.7941555147232422,0.7319766484734128,True
+bow_error,decision_tree,body_4,"{""max_depth"": 3, ""min_samples_leaf"": 10}",clip_equal,0.7593070749152181,0.7173060977267514,0.8274234693877551,True
+bow_error,random_forest,body_4,"{""max_depth"": 3, ""max_features"": 1.0, ""min_samples_leaf"": 5, ""n_estimators"": 150}",clip_equal,0.7689743164925886,0.6692415230297506,0.7924448901101409,False

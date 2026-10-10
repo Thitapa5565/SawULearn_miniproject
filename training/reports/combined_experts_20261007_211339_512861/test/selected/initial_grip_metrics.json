@@ -1,0 +1,134 @@
+{
+  "task": "initial_grip",
+  "split": "test",
+  "tag": "selected",
+  "conditional": {
+    "frames": 53,
+    "clips": 10,
+    "frame_accuracy": 0.8679245283018868,
+    "frame_macro_f1": 0.8589818354608091,
+    "clip_balanced_accuracy": 0.8816666666666666,
+    "clip_balanced_macro_f1": 0.8645062103006028,
+    "coverage": 1.0,
+    "clip_balanced_coverage": 1.0
+  },
+  "all_reviewed": {
+    "frames": 70,
+    "clips": 10,
+    "frame_accuracy": 0.6571428571428571,
+    "frame_macro_f1": 0.7946690990169252,
+    "clip_balanced_accuracy": 0.683417366946779,
+    "clip_balanced_macro_f1": 0.8042903085712574,
+    "coverage": 0.7571428571428571,
+    "clip_balanced_coverage": 0.7892997198879556
+  },
+  "per_expert": {
+    "expert_01": {
+      "frames": 42,
+      "clips": 5,
+      "frame_accuracy": 0.6190476190476191,
+      "frame_macro_f1": 0.7600000000000001,
+      "clip_balanced_accuracy": 0.653501400560224,
+      "clip_balanced_macro_f1": 0.7708691820554886,
+      "coverage": 0.7142857142857143,
+      "clip_balanced_coverage": 0.765266106442577
+    },
+    "expert_02": {
+      "frames": 28,
+      "clips": 5,
+      "frame_accuracy": 0.7142857142857143,
+      "frame_macro_f1": 0.8124542124542126,
+      "clip_balanced_accuracy": 0.713333333333333,
+      "clip_balanced_macro_f1": 0.816397190919484,
+      "coverage": 0.8214285714285714,
+      "clip_balanced_coverage": 0.813333333333333
+    }
+  },
+  "classification_reports": {
+    "unweighted": {
+      "none": {
+        "precision": 0.84375,
+        "recall": 0.5869565217391305,
+        "f1-score": 0.6923076923076923,
+        "support": 46.0
+      },
+      "grip_too_high": {
+        "precision": 0.8181818181818182,
+        "recall": 0.75,
+        "f1-score": 0.782608695652174,
+        "support": 12.0
+      },
+      "grip_too_low": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.9090909090909091,
+        "support": 12.0
+      },
+      "micro avg": {
+        "precision": 0.8679245283018868,
+        "recall": 0.6571428571428571,
+        "f1-score": 0.7479674796747967,
+        "support": 70.0
+      },
+      "macro avg": {
+        "precision": 0.8873106060606061,
+        "recall": 0.7234299516908212,
+        "f1-score": 0.7946690990169252,
+        "support": 70.0
+      },
+      "weighted avg": {
+        "precision": 0.8661525974025974,
+        "recall": 0.6571428571428571,
+        "f1-score": 0.7449507014724406,
+        "support": 70.0
+      }
+    },
+    "clip_balanced": {
+      "none": {
+        "precision": 0.8148493900921083,
+        "recall": 0.61125116713352,
+        "f1-score": 0.6985168587281262,
+        "support": 6.000000000000002
+      },
+      "grip_too_high": {
+        "precision": 0.8693181818181817,
+        "recall": 0.75,
+        "f1-score": 0.8052631578947368,
+        "support": 2.0
+      },
+      "grip_too_low": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.9090909090909091,
+        "support": 2.0
+      },
+      "micro avg": {
+        "precision": 0.865852792959046,
+        "recall": 0.6834173669467788,
+        "f1-score": 0.7638936723128463,
+        "support": 10.000000000000002
+      },
+      "macro avg": {
+        "precision": 0.8947225239700968,
+        "recall": 0.7315281668222845,
+        "f1-score": 0.8042903085712574,
+        "support": 10.000000000000002
+      },
+      "weighted avg": {
+        "precision": 0.8627732704189013,
+        "recall": 0.6834173669467788,
+        "f1-score": 0.7619809286340049,
+        "support": 10.000000000000002
+      }
+    }
+  },
+  "feature_columns": [
+    "bow_side_horizontal_ratio",
+    "wrist_height_body_ratio"
+  ],
+  "family": "random_forest",
+  "fit_splits": [
+    "train",
+    "val"
+  ]
+}

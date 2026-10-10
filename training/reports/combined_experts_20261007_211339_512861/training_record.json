@@ -1,0 +1,531 @@
+{
+  "run": "combined_experts_20261007_211339_512861",
+  "batch": "expert01_expert02_20261007",
+  "started_at": "2026-10-07T21:13:39.516944+07:00",
+  "seed": 42,
+  "cv_folds": 3,
+  "tree_grid": {
+    "max_depth": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "min_samples_leaf": [
+      2,
+      5,
+      10
+    ]
+  },
+  "forest_grid": {
+    "n_estimators": [
+      150
+    ],
+    "max_depth": [
+      3,
+      6,
+      null
+    ],
+    "min_samples_leaf": [
+      2,
+      5
+    ],
+    "max_features": [
+      "sqrt",
+      1.0
+    ]
+  },
+  "dataset_sha256": "1bee7fa0034391ed2d290437976f547b1f36d7ec2a8699d086e3a10ff80d7e29",
+  "manifests": {
+    "bow_angle_float_body_proxy": {
+      "reviewed_frames": 558,
+      "usable_frames": 421,
+      "unusable_frames": 137,
+      "feature_columns": [
+        "bow_side_horizontal_ratio",
+        "bow_side_perpendicular_ratio",
+        "wrist_height_screen_ratio",
+        "wrist_height_body_ratio"
+      ],
+      "target_columns": [
+        "target_bow_angle_wrong"
+      ],
+      "splits": {
+        "train": {
+          "frames": 261,
+          "clips": 33,
+          "target_counts": {
+            "target_bow_angle_wrong": {
+              "0": 164,
+              "1": 97
+            }
+          }
+        },
+        "val": {
+          "frames": 83,
+          "clips": 11,
+          "target_counts": {
+            "target_bow_angle_wrong": {
+              "1": 39,
+              "0": 44
+            }
+          }
+        },
+        "test": {
+          "frames": 77,
+          "clips": 11,
+          "target_counts": {
+            "target_bow_angle_wrong": {
+              "0": 53,
+              "1": 24
+            }
+          }
+        }
+      },
+      "split_files": {
+        "train": "train.csv",
+        "val": "val.csv",
+        "test": "test.csv"
+      },
+      "split_sha256": {
+        "train": "586f16d54f34b9ee70beaa8fcdb103c7b59e9364daaef602a08ac3f9dfb12a8a",
+        "val": "c108725ef879996e6cd665e53a54e527f90e00499695ef0a56e51ac50232b815",
+        "test": "f93634174020af8699feb39db8cebab8aced2b92406ccf049df9303e42bf5eb5"
+      },
+      "dataset_sha256": "1bee7fa0034391ed2d290437976f547b1f36d7ec2a8699d086e3a10ff80d7e29",
+      "model_trained": false,
+      "human_review_complete": true,
+      "data_ready": true,
+      "weight_column": "clip_weight",
+      "group_column": "clip_id",
+      "experimental": true,
+      "annotation_schema": "combined_bow_error_v2",
+      "target_semantics": {
+        "bow_angle_wrong": "angle_wrong_or_bow_floating"
+      },
+      "feedback_th": "ปรับองศาการสีให้ถูกต้อง"
+    },
+    "initial_grip_rightmost": {
+      "reviewed_frames": 351,
+      "usable_frames": 273,
+      "unusable_frames": 78,
+      "feature_columns": [
+        "bow_side_horizontal_ratio",
+        "bow_side_perpendicular_ratio",
+        "wrist_height_screen_ratio",
+        "wrist_height_body_ratio"
+      ],
+      "target_columns": [
+        "error_type"
+      ],
+      "splits": {
+        "train": {
+          "frames": 168,
+          "clips": 32,
+          "target_counts": {
+            "error_type": {
+              "grip_too_high": 30,
+              "grip_too_low": 28,
+              "none": 110
+            }
+          }
+        },
+        "val": {
+          "frames": 52,
+          "clips": 11,
+          "target_counts": {
+            "error_type": {
+              "grip_too_high": 9,
+              "grip_too_low": 10,
+              "none": 33
+            }
+          }
+        },
+        "test": {
+          "frames": 53,
+          "clips": 10,
+          "target_counts": {
+            "error_type": {
+              "grip_too_high": 12,
+              "grip_too_low": 12,
+              "none": 29
+            }
+          }
+        }
+      },
+      "split_files": {
+        "train": "train.csv",
+        "val": "val.csv",
+        "test": "test.csv"
+      },
+      "split_sha256": {
+        "train": "bf247d00e70d0fa37834abb7c5cd8543e21de6a1a1453a6cec829891f8bf2ffd",
+        "val": "5b9b75839f30badac1724e8a2098cec5fce8ec107f0dbb9d629a29b100ebad57",
+        "test": "9682638b5c0119e8808a428c04e38ef2553b9516e27ad6bc7fe663eb96addff5"
+      },
+      "dataset_sha256": "1bee7fa0034391ed2d290437976f547b1f36d7ec2a8699d086e3a10ff80d7e29",
+      "model_trained": false,
+      "human_review_complete": true,
+      "data_ready": true,
+      "weight_column": "clip_weight",
+      "group_column": "clip_id",
+      "experimental": false
+    },
+    "playing_posture_head_shoulder": {
+      "reviewed_frames": 1359,
+      "usable_frames": 1359,
+      "unusable_frames": 0,
+      "feature_columns": [
+        "shoulder_tilt_deg",
+        "head_tilt_deg",
+        "torso_tilt_deg",
+        "head_height_ratio",
+        "head_side_offset_ratio",
+        "nose_below_ears_ratio",
+        "torso_length_ratio",
+        "hip_width_ratio",
+        "nose_depth_vs_shoulders_ratio",
+        "shoulder_depth_vs_hips_ratio"
+      ],
+      "target_columns": [
+        "target_head_down",
+        "target_shoulder_tilt"
+      ],
+      "splits": {
+        "train": {
+          "frames": 833,
+          "clips": 21,
+          "target_counts": {
+            "target_head_down": {
+              "0": 619,
+              "1": 214
+            },
+            "target_shoulder_tilt": {
+              "1": 184,
+              "0": 649
+            }
+          }
+        },
+        "val": {
+          "frames": 258,
+          "clips": 7,
+          "target_counts": {
+            "target_head_down": {
+              "1": 78,
+              "0": 180
+            },
+            "target_shoulder_tilt": {
+              "0": 204,
+              "1": 54
+            }
+          }
+        },
+        "test": {
+          "frames": 268,
+          "clips": 7,
+          "target_counts": {
+            "target_head_down": {
+              "0": 237,
+              "1": 31
+            },
+            "target_shoulder_tilt": {
+              "0": 215,
+              "1": 53
+            }
+          }
+        }
+      },
+      "split_files": {
+        "train": "train.csv",
+        "val": "val.csv",
+        "test": "test.csv"
+      },
+      "split_sha256": {
+        "train": "34661efc53941ac3e187b10f26a834a323b403b790dc54209cd61d7e96d2bf22",
+        "val": "e28879a29f9b2906ad89e5911b3fc9cf6e23d2240ce856297a110672658ef37b",
+        "test": "8cb012afa22bd030909b6b23f0e1911652d42e4d9dcc569124f74ba619346d60"
+      },
+      "dataset_sha256": "1bee7fa0034391ed2d290437976f547b1f36d7ec2a8699d086e3a10ff80d7e29",
+      "model_trained": false,
+      "human_review_complete": true,
+      "data_ready": true,
+      "weight_column": "clip_weight",
+      "group_column": "clip_id",
+      "experimental": false
+    }
+  },
+  "selection_policy": "TRAIN grouped CV shortlist per family; fixed VAL macro F1 chooses family; TEST after lock only",
+  "metrics_policy": "Primary: frame macro F1 with equal total weight per clip; fixed class list",
+  "sklearn_version": "1.9.1",
+  "python_version": "3.12.14",
+  "web_before": {
+    "training/models/final_latest.json": "8f710e8cc3c042c77c2c3e5ef73f470d0278e2956094ae12bf4cfa6de2742a4e",
+    "web_app/backend/body_grip_model.json": "aa5038c49388207c3706142992ec10ce3758177ede24b148c50d3821ce831848",
+    "web_app/backend/bow_level_model.json": "419f2d7df2336b53ad2a71f906eda27979bff07e4a7288f72c9d786c39353baf",
+    "training/models/independent_posture_20261005_234434_046032/sawuai_models.joblib": "05234ad7ac2a1165ce99044c8ee8915e94cfeac0ffc90dd470eec6dc9683036e",
+    "training/models/rightmost_grip_20261007_065908_739280/initial_grip.joblib": "7ce9c0069dbdb0fab44cc37aac413272f6402b13fe28ae201ae53e972105408c",
+    "training/models/bow_level_20261006_165829_747686/level_error.joblib": "3556a4d90caf4bfedb36969a874b934d92c583724697be6c6968212377f54660",
+    "training/models/bow_level_20261006_165829_747686/angle_deviation.joblib": "c20cb98b4b3d8aecee8c5642cb0b0f1f51cd7c90f046b249f18657484abbdbf0",
+    "training/models/bow_level_20261006_165829_747686/bridge_distance.joblib": "d0ac6b9f20597a44d9779308eaa43eab7af2463da226c19c4e5dd223318b8ae1"
+  },
+  "deployed": false,
+  "tasks": {
+    "head_down": {
+      "selected": {
+        "family": "random_forest",
+        "params": {
+          "max_depth": null,
+          "max_features": 1.0,
+          "min_samples_leaf": 2,
+          "n_estimators": 150
+        },
+        "weight_mode": "clip_class_balanced",
+        "feature_set": "posture_10",
+        "features": [
+          "shoulder_tilt_deg",
+          "head_tilt_deg",
+          "torso_tilt_deg",
+          "head_height_ratio",
+          "head_side_offset_ratio",
+          "nose_below_ears_ratio",
+          "torso_length_ratio",
+          "hip_width_ratio",
+          "nose_depth_vs_shoulders_ratio",
+          "shoulder_depth_vs_hips_ratio"
+        ],
+        "candidate_id": "head_down_046",
+        "cv": {
+          "frames": 833,
+          "clips": 21,
+          "frame_accuracy": 0.8619447779111644,
+          "frame_macro_f1": 0.8117935751067311,
+          "clip_balanced_accuracy": 0.813868870472644,
+          "clip_balanced_macro_f1": 0.7861741252998561,
+          "coverage": 1.0,
+          "clip_balanced_coverage": 1.0
+        },
+        "fold_f1": [
+          0.7212844510220102,
+          0.7888940699735287,
+          0.8493148614557131
+        ],
+        "fold_f1_std": 0.05229565375389511,
+        "train": {
+          "frames": 833,
+          "clips": 21,
+          "frame_accuracy": 0.9915966386554622,
+          "frame_macro_f1": 0.9890782540940157,
+          "clip_balanced_accuracy": 0.9918042185427629,
+          "clip_balanced_macro_f1": 0.9907808256475805,
+          "coverage": 1.0,
+          "clip_balanced_coverage": 1.0
+        },
+        "val": {
+          "frames": 258,
+          "clips": 7,
+          "frame_accuracy": 0.7015503875968992,
+          "frame_macro_f1": 0.6850815592156365,
+          "clip_balanced_accuracy": 0.7123198485743503,
+          "clip_balanced_macro_f1": 0.7071553532422666,
+          "coverage": 1.0,
+          "clip_balanced_coverage": 1.0
+        }
+      },
+      "validation_model_sha256": "3d13bddeb0cf550aea1f8c451c619e417c8ff396bdf6ac31a38a358395773b00",
+      "final_model_sha256": "1a9f06ef6b1f03cdbb093a011f680ec87501ffc1700ee7c4a0dd243dcd7bf5b7"
+    },
+    "shoulder_tilt": {
+      "selected": {
+        "family": "random_forest",
+        "params": {
+          "max_depth": 3,
+          "max_features": 1.0,
+          "min_samples_leaf": 2,
+          "n_estimators": 150
+        },
+        "weight_mode": "clip_class_balanced",
+        "feature_set": "posture_10",
+        "features": [
+          "shoulder_tilt_deg",
+          "head_tilt_deg",
+          "torso_tilt_deg",
+          "head_height_ratio",
+          "head_side_offset_ratio",
+          "nose_below_ears_ratio",
+          "torso_length_ratio",
+          "hip_width_ratio",
+          "nose_depth_vs_shoulders_ratio",
+          "shoulder_depth_vs_hips_ratio"
+        ],
+        "candidate_id": "shoulder_tilt_030",
+        "cv": {
+          "frames": 833,
+          "clips": 21,
+          "frame_accuracy": 0.865546218487395,
+          "frame_macro_f1": 0.7982911304829112,
+          "clip_balanced_accuracy": 0.820832997564007,
+          "clip_balanced_macro_f1": 0.7867401092600117,
+          "coverage": 1.0,
+          "clip_balanced_coverage": 1.0
+        },
+        "fold_f1": [
+          0.925604917650217,
+          0.5779449749857639,
+          0.8605850198662983
+        ],
+        "fold_f1_std": 0.15091587716022187,
+        "train": {
+          "frames": 833,
+          "clips": 21,
+          "frame_accuracy": 0.9315726290516206,
+          "frame_macro_f1": 0.9015507299565199,
+          "clip_balanced_accuracy": 0.917268208699011,
+          "clip_balanced_macro_f1": 0.9059149179764934,
+          "coverage": 1.0,
+          "clip_balanced_coverage": 1.0
+        },
+        "val": {
+          "frames": 258,
+          "clips": 7,
+          "frame_accuracy": 0.8333333333333334,
+          "frame_macro_f1": 0.7937726554512501,
+          "clip_balanced_accuracy": 0.7617807318287508,
+          "clip_balanced_macro_f1": 0.7493691147825906,
+          "coverage": 1.0,
+          "clip_balanced_coverage": 1.0
+        }
+      },
+      "validation_model_sha256": "6636f97539c67af071104f36383d4daecfc253f354038a6a607a870f2f9adaeb",
+      "final_model_sha256": "211c20c2808ca733c633a5fd2f623e03930ef4637b9f15dc5633a9f5a591cfb4"
+    },
+    "initial_grip": {
+      "selected": {
+        "family": "random_forest",
+        "params": {
+          "max_depth": 6,
+          "max_features": 1.0,
+          "min_samples_leaf": 5,
+          "n_estimators": 150
+        },
+        "weight_mode": "clip_class_balanced",
+        "feature_set": "body_2",
+        "features": [
+          "bow_side_horizontal_ratio",
+          "wrist_height_body_ratio"
+        ],
+        "candidate_id": "initial_grip_040",
+        "cv": {
+          "frames": 168,
+          "clips": 32,
+          "frame_accuracy": 0.8571428571428571,
+          "frame_macro_f1": 0.8345016627357995,
+          "clip_balanced_accuracy": 0.8134176587301589,
+          "clip_balanced_macro_f1": 0.7941555147232422,
+          "coverage": 1.0,
+          "clip_balanced_coverage": 1.0
+        },
+        "fold_f1": [
+          0.8237439084902124,
+          0.8800850030358226,
+          0.6741097564297905
+        ],
+        "fold_f1_std": 0.08691662710887854,
+        "train": {
+          "frames": 168,
+          "clips": 32,
+          "frame_accuracy": 0.9047619047619048,
+          "frame_macro_f1": 0.8943105544104434,
+          "clip_balanced_accuracy": 0.8814732142857143,
+          "clip_balanced_macro_f1": 0.878152925499882,
+          "coverage": 1.0,
+          "clip_balanced_coverage": 1.0
+        },
+        "val": {
+          "frames": 52,
+          "clips": 11,
+          "frame_accuracy": 0.8461538461538461,
+          "frame_macro_f1": 0.8139376962906374,
+          "clip_balanced_accuracy": 0.7606060606060606,
+          "clip_balanced_macro_f1": 0.7319766484734128,
+          "coverage": 1.0,
+          "clip_balanced_coverage": 1.0
+        }
+      },
+      "validation_model_sha256": "609c20b928e960a7a693eacb19dd6007d6fb1a4e689068e9f43718c2ecbb5995",
+      "final_model_sha256": "235e8e4ed69905ce57d05943f5908c6e7513ddde603622cdbeb45becd17fe899"
+    },
+    "bow_error": {
+      "selected": {
+        "family": "decision_tree",
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 10
+        },
+        "weight_mode": "clip_equal",
+        "feature_set": "body_4",
+        "features": [
+          "bow_side_horizontal_ratio",
+          "bow_side_perpendicular_ratio",
+          "wrist_height_screen_ratio",
+          "wrist_height_body_ratio"
+        ],
+        "candidate_id": "bow_error_011",
+        "cv": {
+          "frames": 261,
+          "clips": 33,
+          "frame_accuracy": 0.7854406130268199,
+          "frame_macro_f1": 0.7440100882723835,
+          "clip_balanced_accuracy": 0.8770951943679217,
+          "clip_balanced_macro_f1": 0.7173060977267514,
+          "coverage": 1.0,
+          "clip_balanced_coverage": 1.0
+        },
+        "fold_f1": [
+          0.6736620620254321,
+          0.8310978760673662,
+          0.6602663714394327
+        ],
+        "fold_f1_std": 0.0775663751912343,
+        "train": {
+          "frames": 261,
+          "clips": 33,
+          "frame_accuracy": 0.7969348659003831,
+          "frame_macro_f1": 0.7549816674637335,
+          "clip_balanced_accuracy": 0.9037089509816784,
+          "clip_balanced_macro_f1": 0.7593070749152181,
+          "coverage": 1.0,
+          "clip_balanced_coverage": 1.0
+        },
+        "val": {
+          "frames": 83,
+          "clips": 11,
+          "frame_accuracy": 0.8072289156626506,
+          "frame_macro_f1": 0.7965686274509804,
+          "clip_balanced_accuracy": 0.9112554112554112,
+          "clip_balanced_macro_f1": 0.8274234693877551,
+          "coverage": 1.0,
+          "clip_balanced_coverage": 1.0
+        }
+      },
+      "validation_model_sha256": "08d4aeaac7bca946d7be0324191be0f1372899d0acb4c56891df7300d601f0b8",
+      "final_model_sha256": "18d4e0fb88c6b750e9a5650c962bc03e46018e5d52b1e1e7e3a41fa29dc4014d"
+    }
+  },
+  "source_hashes": {
+    "training_helpers": "b758b9e24a4be1f195220df632ad5440a5e50c16ee227e18bd0dd07fde4eb42b",
+    "notebook_builder": "a78b4d647f2c622889319dadc516528632a37f7d29ddac9166a86c78ef916975",
+    "posture_geometry": "efd22ac13e8c125d5d99f69f4dec638881690910dcd59fb4e9213e875e09cae4",
+    "body_geometry": "7e9fed1681dba395c655fa340fa4317b186ca4106bdf7521e4ec69a108950222"
+  },
+  "web_after_training": {
+    "training/models/final_latest.json": "8f710e8cc3c042c77c2c3e5ef73f470d0278e2956094ae12bf4cfa6de2742a4e",
+    "web_app/backend/body_grip_model.json": "aa5038c49388207c3706142992ec10ce3758177ede24b148c50d3821ce831848",
+    "web_app/backend/bow_level_model.json": "419f2d7df2336b53ad2a71f906eda27979bff07e4a7288f72c9d786c39353baf",
+    "training/models/independent_posture_20261005_234434_046032/sawuai_models.joblib": "05234ad7ac2a1165ce99044c8ee8915e94cfeac0ffc90dd470eec6dc9683036e",
+    "training/models/rightmost_grip_20261007_065908_739280/initial_grip.joblib": "7ce9c0069dbdb0fab44cc37aac413272f6402b13fe28ae201ae53e972105408c",
+    "training/models/bow_level_20261006_165829_747686/level_error.joblib": "3556a4d90caf4bfedb36969a874b934d92c583724697be6c6968212377f54660",
+    "training/models/bow_level_20261006_165829_747686/angle_deviation.joblib": "c20cb98b4b3d8aecee8c5642cb0b0f1f51cd7c90f046b249f18657484abbdbf0",
+    "training/models/bow_level_20261006_165829_747686/bridge_distance.joblib": "d0ac6b9f20597a44d9779308eaa43eab7af2463da226c19c4e5dd223318b8ae1"
+  },
+  "training_complete": true
+}
